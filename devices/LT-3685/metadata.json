@@ -1,0 +1,31 @@
+{
+  "system": {
+    "location": {
+      "site": "TW-NTC-TPKD",
+      "section": "NTC-TPKD",
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    "physical_tag": {
+      "asset": {
+        "site": "TW-NTC-TPKD",
+        "name": "LT-3685",
+        "guid": "uuid://2f74a637-b130-43e3-92c5-cca4f0d98eba"
+      }
+    }
+  },
+  "pointset": {
+    "points": {
+      "dimmer_percentage_command": {
+        "units": "Percent"
+      }
+    }
+  },
+  "gateway": {
+    "gateway_id": "LTGW-26"
+  },
+  "version": 1,
+  "timestamp": "2021-10-13T14:32:47.2883121+01:00"
+}

@@ -1,0 +1,31 @@
+{
+  "system": {
+    "location": {
+      "site": "TW-NTC-TPKD",
+      "section": "NTC-TPKD",
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    "physical_tag": {
+      "asset": {
+        "site": "TW-NTC-TPKD",
+        "name": "LT-3567",
+        "guid": "uuid://4cf9d3d6-5b3d-4bd6-a161-e463231a1190"
+      }
+    }
+  },
+  "pointset": {
+    "points": {
+      "dimmer_percentage_command": {
+        "units": "Percent"
+      }
+    }
+  },
+  "gateway": {
+    "gateway_id": "LTGW-25"
+  },
+  "version": 1,
+  "timestamp": "2021-10-13T14:32:47.2756738+01:00"
+}

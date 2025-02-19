@@ -1,0 +1,31 @@
+{
+  "system": {
+    "location": {
+      "site": "TW-NTC-TPKD",
+      "section": "NTC-TPKD",
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    "physical_tag": {
+      "asset": {
+        "site": "TW-NTC-TPKD",
+        "name": "LMS-525",
+        "guid": "uuid://5ef002d7-bf9e-4c65-9551-3edca9d13f85"
+      }
+    }
+  },
+  "pointset": {
+    "points": {
+      "zone_occupancy_status": {
+        "units": "No-units"
+      }
+    }
+  },
+  "gateway": {
+    "gateway_id": "LTGW-21"
+  },
+  "version": 1,
+  "timestamp": "2021-10-13T14:32:47.1957039+01:00"
+}

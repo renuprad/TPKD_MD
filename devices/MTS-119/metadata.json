@@ -1,0 +1,34 @@
+{
+  "system": {
+    "location": {
+      "site": "TW-NTC-TPKD",
+      "section": "NTC-TPKD",
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    "physical_tag": {
+      "asset": {
+        "site": "TW-NTC-TPKD",
+        "name": "MTS-119",
+        "guid": "uuid://95e64e83-8eca-401e-9553-82988dcd63bd"
+      }
+    }
+  },
+  "pointset": {
+    "points": {
+      "illuminance_sensor": {
+        "units": "Percent"
+      },
+      "zone_occupancy_status": {
+        "units": "No-units"
+      }
+    }
+  },
+  "gateway": {
+    "gateway_id": "LTGW-32"
+  },
+  "version": 1,
+  "timestamp": "2021-04-16T18:10:02.827617+01:00"
+}

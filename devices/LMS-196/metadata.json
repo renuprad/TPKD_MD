@@ -1,0 +1,31 @@
+{
+  "system": {
+    "location": {
+      "site": "TW-NTC-TPKD",
+      "section": "NTC-TPKD",
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    "physical_tag": {
+      "asset": {
+        "site": "TW-NTC-TPKD",
+        "name": "LMS-196",
+        "guid": "uuid://6a9810a2-d7b6-4674-8ab8-c64aa563ef8b"
+      }
+    }
+  },
+  "pointset": {
+    "points": {
+      "zone_occupancy_status": {
+        "units": "No-units"
+      }
+    }
+  },
+  "gateway": {
+    "gateway_id": "LTGW-14"
+  },
+  "version": 1,
+  "timestamp": "2021-10-13T14:32:46.9588994+01:00"
+}

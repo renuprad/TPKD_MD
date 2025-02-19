@@ -1,0 +1,37 @@
+{
+  "system": {
+    "location": {
+      "site": "TW-NTC-TPKD",
+      "section": "NTC-TPKD",
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    "physical_tag": {
+      "asset": {
+        "site": "TW-NTC-TPKD",
+        "name": "LKP-38",
+        "guid": "uuid://5d803bc7-7236-4a82-abf3-f5ef527da756"
+      }
+    }
+  },
+  "pointset": {
+    "points": {
+      "zone_scene_command": {
+        "units": "No-units"
+      },
+      "brightness_percentage_command": {
+        "units": "Percent"
+      },
+      "scene_command": {
+        "units": "No-units"
+      }
+    }
+  },
+  "gateway": {
+    "gateway_id": "LTGW-12"
+  },
+  "version": 1,
+  "timestamp": "2021-10-13T14:32:46.9147156+01:00"
+}

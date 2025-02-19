@@ -1,0 +1,106 @@
+{
+  "timestamp" : "2024-12-03T10:06:13Z",
+  "version" : "1.5.2",
+  "cloud" : {
+    "resource_type" : "DEVICE"
+  },
+  "system" : {
+    "tags" : [ ],
+    "location" : {
+      "site" : "TW-NTC-TPKD"
+    },
+    "min_loglevel" : 300
+  },
+  "gateway" : {
+    "gateway_id" : "CGW-74"
+  },
+  "localnet" : {
+    "families" : {
+      "iot" : {
+        "addr" : "FCU-980"
+      }
+    }
+  },
+  "testing" : {
+    "nostate" : true,
+    "targets" : {
+      "applied" : {
+        "target_point" : "fcu_980_discharge_fan_speed_mode",
+        "target_value" : 65
+      },
+      "invalid" : {
+        "target_point" : "fcu_980_discharge_fan_speed_mode",
+        "target_value" : [ ]
+      }
+    }
+  },
+  "features" : {
+    "system" : {
+      "stage" : "alpha"
+    },
+    "writeback" : {
+      "stage" : "alpha"
+    },
+    "pointset" : {
+      "stage" : "alpha"
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "fcu_980_discharge_fan_speed_mode" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "11387",
+        "tags" : [ ]
+      },
+      "fcu_980_discharge_fan_run_status" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "11338",
+        "tags" : [ ]
+      },
+      "fcu_980_chilled_water_valve_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "11342",
+        "tags" : [ ]
+      },
+      "fcu_980_schedule_run_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "11341",
+        "tags" : [ ]
+      },
+      "fcu_980_return_air_temperature_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "11385",
+        "tags" : [ ]
+      },
+      "fcu_980_discharge_fan_run_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "11337",
+        "tags" : [ ]
+      },
+      "fcu_980_run_mode" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "11340",
+        "tags" : [ ]
+      },
+      "fcu_980_discharge_fan_lost_power_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "11339",
+        "tags" : [ ]
+      },
+      "fcu_980_return_air_temperature_setpoint" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "11386",
+        "tags" : [ ]
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "system": {
+    "location": {
+      "site": "TW-NTC-TPKD",
+      "section": "NTC-TPKD",
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    "physical_tag": {
+      "asset": {
+        "site": "TW-NTC-TPKD",
+        "name": "LGRP-847",
+        "guid": "uuid://4fdd403a-b933-4469-9046-c1a6f3627182"
+      }
+    }
+  },
+  "pointset": {
+    "points": {
+      "brightness_percentage_command": {
+        "units": "Percent"
+      }
+    }
+  },
+  "gateway": {
+    "gateway_id": "LTGW-31"
+  },
+  "version": 1,
+  "timestamp": "2021-10-13T14:32:47.4037676+01:00"
+}

@@ -1,0 +1,31 @@
+{
+  "system": {
+    "location": {
+      "site": "TW-NTC-TPKD",
+      "section": "NTC-TPKD",
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    "physical_tag": {
+      "asset": {
+        "site": "TW-NTC-TPKD",
+        "name": "LGRP-40",
+        "guid": "uuid://10b63eae-26db-4dff-b8bd-fbe0f6630e14"
+      }
+    }
+  },
+  "pointset": {
+    "points": {
+      "brightness_percentage_command": {
+        "units": "Percent"
+      }
+    }
+  },
+  "gateway": {
+    "gateway_id": "LTGW-10"
+  },
+  "version": 1,
+  "timestamp": "2021-10-13T14:32:46.8520611+01:00"
+}

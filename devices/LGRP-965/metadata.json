@@ -1,0 +1,31 @@
+{
+  "system": {
+    "location": {
+      "site": "TW-NTC-TPKD",
+      "section": "NTC-TPKD",
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    "physical_tag": {
+      "asset": {
+        "site": "TW-NTC-TPKD",
+        "name": "LGRP-965",
+        "guid": "uuid://225b98c0-d54e-4598-b64f-8b71be222564"
+      }
+    }
+  },
+  "pointset": {
+    "points": {
+      "brightness_percentage_command": {
+        "units": "Percent"
+      }
+    }
+  },
+  "gateway": {
+    "gateway_id": "LTGW-6"
+  },
+  "version": 1,
+  "timestamp": "2021-10-13T14:32:47.4753712+01:00"
+}

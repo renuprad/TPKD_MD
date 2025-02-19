@@ -1,0 +1,31 @@
+{
+  "system": {
+    "location": {
+      "site": "TW-NTC-TPKD",
+      "section": "NTC-TPKD",
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    "physical_tag": {
+      "asset": {
+        "site": "TW-NTC-TPKD",
+        "name": "LMS-144",
+        "guid": "uuid://6c4ba142-e4e5-49d3-b717-82da834f97ae"
+      }
+    }
+  },
+  "pointset": {
+    "points": {
+      "zone_occupancy_status": {
+        "units": "No-units"
+      }
+    }
+  },
+  "gateway": {
+    "gateway_id": "LTGW-12"
+  },
+  "version": 1,
+  "timestamp": "2021-10-13T14:32:46.91454+01:00"
+}

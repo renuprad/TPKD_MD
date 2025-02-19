@@ -1,0 +1,31 @@
+{
+  "system": {
+    "location": {
+      "site": "TW-NTC-TPKD",
+      "section": "NTC-TPKD",
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    "physical_tag": {
+      "asset": {
+        "site": "TW-NTC-TPKD",
+        "name": "LMS-742",
+        "guid": "uuid://3b6fcbba-c997-4569-bc7c-73cea08350bd"
+      }
+    }
+  },
+  "pointset": {
+    "points": {
+      "zone_occupancy_status": {
+        "units": "No-units"
+      }
+    }
+  },
+  "gateway": {
+    "gateway_id": "LTGW-27"
+  },
+  "version": 1,
+  "timestamp": "2021-10-13T14:32:47.311743+01:00"
+}

@@ -1,0 +1,32 @@
+{
+  "cloud" : {
+    "auth_type" : "RS256"
+  },
+  "system" : {
+    "location" : {
+      "site" : "TW-NTC-TPKD",
+      "section" : "NTC-TPKD",
+      "position" : {
+        "x" : 0,
+        "y" : 0
+      }
+    },
+    "physical_tag" : {
+      "asset" : {
+        "site" : "TW-NTC-TPKD",
+        "name" : "WM-147",
+        "guid" : "uuid://78ffa925-ae4e-4e15-ad96-96575b3f8752"
+      }
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "water_volume_accumulator" : {
+        "units" : "Cubic-meters"
+      }
+    }
+  },
+  "version" : 1,
+  "hash" : "58d9d336",
+  "timestamp" : "2021-10-15T11:10:58.310982Z"
+}

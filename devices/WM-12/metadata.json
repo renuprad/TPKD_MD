@@ -1,0 +1,58 @@
+{
+  "timestamp" : "2024-12-03T10:06:12Z",
+  "version" : "1.5.2",
+  "cloud" : {
+    "resource_type" : "DEVICE"
+  },
+  "system" : {
+    "tags" : [ ],
+    "location" : {
+      "site" : "TW-NTC-TPKD"
+    },
+    "min_loglevel" : 300
+  },
+  "gateway" : {
+    "gateway_id" : "CGW-25"
+  },
+  "localnet" : {
+    "families" : {
+      "iot" : {
+        "addr" : "WM-12"
+      }
+    }
+  },
+  "testing" : {
+    "nostate" : true,
+    "targets" : {
+      "applied" : {
+        "target_point" : "wm_12_water_volume_accumulator",
+        "target_value" : 69
+      },
+      "invalid" : {
+        "target_point" : "wm_12_water_volume_accumulator",
+        "target_value" : [ ]
+      }
+    }
+  },
+  "features" : {
+    "system" : {
+      "stage" : "alpha"
+    },
+    "writeback" : {
+      "stage" : "alpha"
+    },
+    "pointset" : {
+      "stage" : "alpha"
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "wm_12_water_volume_accumulator" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "4602",
+        "tags" : [ ]
+      }
+    }
+  }
+}

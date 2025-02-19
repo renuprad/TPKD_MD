@@ -1,0 +1,37 @@
+{
+  "system": {
+    "location": {
+      "site": "TW-NTC-TPKD",
+      "section": "NTC-TPKD",
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    "physical_tag": {
+      "asset": {
+        "site": "TW-NTC-TPKD",
+        "name": "LKP-282",
+        "guid": "uuid://82c7fef3-53bf-4c2d-8f95-c12c6c55a65f"
+      }
+    }
+  },
+  "pointset": {
+    "points": {
+      "zone_scene_command": {
+        "units": "No-units"
+      },
+      "brightness_percentage_command": {
+        "units": "Percent"
+      },
+      "scene_command": {
+        "units": "No-units"
+      }
+    }
+  },
+  "gateway": {
+    "gateway_id": "LTGW-6"
+  },
+  "version": 1,
+  "timestamp": "2021-10-13T14:32:47.4805103+01:00"
+}

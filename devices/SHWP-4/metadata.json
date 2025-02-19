@@ -1,0 +1,232 @@
+{
+  "timestamp" : "2024-12-03T10:06:13Z",
+  "version" : "1.5.2",
+  "cloud" : {
+    "resource_type" : "DEVICE"
+  },
+  "system" : {
+    "tags" : [ ],
+    "location" : {
+      "site" : "TW-NTC-TPKD"
+    },
+    "min_loglevel" : 300
+  },
+  "gateway" : {
+    "gateway_id" : "CGW-129"
+  },
+  "localnet" : {
+    "families" : {
+      "iot" : {
+        "addr" : "SHWP-4"
+      }
+    }
+  },
+  "testing" : {
+    "nostate" : true,
+    "targets" : {
+      "applied" : {
+        "target_point" : "shwp_4_start_alarm",
+        "target_value" : false
+      },
+      "invalid" : {
+        "target_point" : "shwp_4_start_alarm",
+        "target_value" : [ ]
+      }
+    }
+  },
+  "features" : {
+    "system" : {
+      "stage" : "alpha"
+    },
+    "writeback" : {
+      "stage" : "alpha"
+    },
+    "pointset" : {
+      "stage" : "alpha"
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "shwp_4_start_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15724",
+        "tags" : [ ]
+      },
+      "shwp_4_heat_inverter_percentage_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15806",
+        "tags" : [ ]
+      },
+      "shwp_4_reset_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15727",
+        "tags" : [ ]
+      },
+      "shwp_4_motor_frequency_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15800",
+        "tags" : [ ]
+      },
+      "shwp_4_control_status" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15719",
+        "tags" : [ ]
+      },
+      "shwp_4_run_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15715",
+        "tags" : [ ]
+      },
+      "shwp_4_electric_inverter_percentage_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15807",
+        "tags" : [ ]
+      },
+      "shwp_4_reset_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15720",
+        "tags" : [ ]
+      },
+      "shwp_4_speed_frequency_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15793",
+        "tags" : [ ]
+      },
+      "shwp_4_fan_voltage_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15802",
+        "tags" : [ ]
+      },
+      "shwp_4_end_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15723",
+        "tags" : [ ]
+      },
+      "shwp_4_pump_speed_mode" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15725",
+        "tags" : [ ]
+      },
+      "shwp_4_start_mode" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15726",
+        "tags" : [ ]
+      },
+      "shwp_4_fin_temperature_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15805",
+        "tags" : [ ]
+      },
+      "shwp_4_lost_power_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15717",
+        "tags" : [ ]
+      },
+      "shwp_4_max_inverter_current_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15808",
+        "tags" : [ ]
+      },
+      "shwp_4_run_status" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15716",
+        "tags" : [ ]
+      },
+      "shwp_4_run_mode" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15718",
+        "tags" : [ ]
+      },
+      "shwp_4_run_time_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15794",
+        "tags" : [ ]
+      },
+      "shwp_4_break_time_command_1" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15803",
+        "tags" : [ ]
+      },
+      "shwp_4_chilled_water_flowrate_status" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15722",
+        "tags" : [ ]
+      },
+      "shwp_4_average_line_neutral_voltage_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15797",
+        "tags" : [ ]
+      },
+      "shwp_4_pump_speed_frequency_setpoint" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15795",
+        "tags" : [ ]
+      },
+      "shwp_4_average_line_current_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15798",
+        "tags" : [ ]
+      },
+      "shwp_4_power_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15796",
+        "tags" : [ ]
+      },
+      "shwp_4_motor_energy_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15799",
+        "tags" : [ ]
+      },
+      "shwp_4_heat_percentage_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15801",
+        "tags" : [ ]
+      },
+      "shwp_4_break_time_command_2" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15804",
+        "tags" : [ ]
+      },
+      "shwp_4_simulation_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15721",
+        "tags" : [ ]
+      },
+      "shwp_4_speed_frequency_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15792",
+        "tags" : [ ]
+      }
+    }
+  }
+}

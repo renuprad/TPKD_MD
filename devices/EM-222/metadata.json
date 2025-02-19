@@ -1,0 +1,118 @@
+{
+  "timestamp" : "2024-12-03T10:06:12Z",
+  "version" : "1.5.2",
+  "cloud" : {
+    "resource_type" : "DEVICE"
+  },
+  "system" : {
+    "tags" : [ ],
+    "location" : {
+      "site" : "TW-NTC-TPKD"
+    },
+    "min_loglevel" : 300
+  },
+  "gateway" : {
+    "gateway_id" : "CGW-28"
+  },
+  "localnet" : {
+    "families" : {
+      "iot" : {
+        "addr" : "EM-222"
+      }
+    }
+  },
+  "testing" : {
+    "nostate" : true,
+    "targets" : {
+      "applied" : {
+        "target_point" : "em_222_phase1_line_current_sensor",
+        "target_value" : 63
+      },
+      "invalid" : {
+        "target_point" : "em_222_phase1_line_current_sensor",
+        "target_value" : [ ]
+      }
+    }
+  },
+  "features" : {
+    "system" : {
+      "stage" : "alpha"
+    },
+    "writeback" : {
+      "stage" : "alpha"
+    },
+    "pointset" : {
+      "stage" : "alpha"
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "em_222_phase1_line_current_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "5123",
+        "tags" : [ ]
+      },
+      "em_222_energy_accumulator" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "5130",
+        "tags" : [ ]
+      },
+      "em_222_phase1_neutral_line_voltage_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "5126",
+        "tags" : [ ]
+      },
+      "em_222_powerfactor_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "5131",
+        "tags" : [ ]
+      },
+      "em_222_line_frequency_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "5133",
+        "tags" : [ ]
+      },
+      "em_222_phase2_neutral_line_voltage_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "5127",
+        "tags" : [ ]
+      },
+      "em_222_phase2_line_current_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "5124",
+        "tags" : [ ]
+      },
+      "em_222_phase3_neutral_line_voltage_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "5128",
+        "tags" : [ ]
+      },
+      "em_222_power_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "5129",
+        "tags" : [ ]
+      },
+      "em_222_reactive_power_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "5132",
+        "tags" : [ ]
+      },
+      "em_222_phase3_line_current_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "5125",
+        "tags" : [ ]
+      }
+    }
+  }
+}

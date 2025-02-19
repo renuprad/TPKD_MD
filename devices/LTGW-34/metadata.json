@@ -1,0 +1,40 @@
+{
+  "cloud": {
+    "auth_type": "RS256"
+  },
+  "system": {
+    "location": {
+      "site": "TW-NTC-TPKD",
+      "section": "TW-NTC-TPKD",
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    "physical_tag": {
+      "asset": {
+        "site": "TW-NTC-TPKD",
+        "name": "LTGW-34",
+        "guid": "uuid://3ee4c516-6491-4d41-b8cf-90e18a1bd551"
+      }
+    }
+  },
+  "gateway": {
+    "proxy_ids": [
+      "LGRP-906",
+      "LGRP-907",
+      "LGRP-908",
+      "LGRP-909",
+      "LGRP-910",
+      "LT-5277",
+      "LT-5278",
+      "LT-5279",
+      "LT-5280",
+      "LT-5281",
+      "LTMTS-127",
+      "LTMTS-128"
+    ]
+  },
+  "timestamp": "2021-10-13T14:32:47.4458978+01:00",
+  "version": 1
+}

@@ -1,0 +1,34 @@
+{
+  "system": {
+    "location": {
+      "site": "TW-NTC-TPKD",
+      "section": "NTC-TPKD",
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    "physical_tag": {
+      "asset": {
+        "site": "TW-NTC-TPKD",
+        "name": "LTMTS-35",
+        "guid": "uuid://77ba87ef-db66-4c68-b207-fdd4fa628e79"
+      }
+    }
+  },
+  "pointset": {
+    "points": {
+      "lighting_percentage_sensor": {
+        "units": "Percent"
+      },
+      "zone_occupancy_status": {
+        "units": "No-units"
+      }
+    }
+  },
+  "gateway": {
+    "gateway_id": "LTGW-16"
+  },
+  "version": 1,
+  "timestamp": "2021-10-13T14:32:47.0214743+01:00"
+}

@@ -1,0 +1,35 @@
+{
+  "cloud" : {
+    "auth_type" : "RS256"
+  },
+  "system" : {
+    "location" : {
+      "site" : "TW-NTC-TPKD",
+      "section" : "NTC-TPKD",
+      "position" : {
+        "x" : 0,
+        "y" : 0
+      }
+    },
+    "physical_tag" : {
+      "asset" : {
+        "site" : "TW-NTC-TPKD",
+        "name" : "HM-65",
+        "guid" : "uuid://4f41e8c9-a4cd-404a-b951-e99ca3bd2999"
+      }
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "cooling_thermal_energy_accumulator" : {
+        "units" : "Megawatt-hours"
+      },
+      "cooling_thermal_power_sensor" : {
+        "units" : "Megawatts"
+      }
+    }
+  },
+  "version" : 1,
+  "hash" : "58d9d336",
+  "timestamp" : "2021-10-15T11:10:06.583055900Z"
+}

@@ -1,0 +1,118 @@
+{
+  "timestamp" : "2024-12-03T10:06:13Z",
+  "version" : "1.5.2",
+  "cloud" : {
+    "resource_type" : "DEVICE"
+  },
+  "system" : {
+    "tags" : [ ],
+    "location" : {
+      "site" : "TW-NTC-TPKD"
+    },
+    "min_loglevel" : 300
+  },
+  "gateway" : {
+    "gateway_id" : "CGW-117"
+  },
+  "localnet" : {
+    "families" : {
+      "iot" : {
+        "addr" : "EM-236"
+      }
+    }
+  },
+  "testing" : {
+    "nostate" : true,
+    "targets" : {
+      "applied" : {
+        "target_point" : "em_236_line_frequency_sensor",
+        "target_value" : 89
+      },
+      "invalid" : {
+        "target_point" : "em_236_line_frequency_sensor",
+        "target_value" : [ ]
+      }
+    }
+  },
+  "features" : {
+    "system" : {
+      "stage" : "alpha"
+    },
+    "writeback" : {
+      "stage" : "alpha"
+    },
+    "pointset" : {
+      "stage" : "alpha"
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "em_236_line_frequency_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15234",
+        "tags" : [ ]
+      },
+      "em_236_phase1_neutral_line_voltage_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15227",
+        "tags" : [ ]
+      },
+      "em_236_phase2_neutral_line_voltage_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15228",
+        "tags" : [ ]
+      },
+      "em_236_power_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15230",
+        "tags" : [ ]
+      },
+      "em_236_phase1_line_current_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15224",
+        "tags" : [ ]
+      },
+      "em_236_phase2_line_current_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15225",
+        "tags" : [ ]
+      },
+      "em_236_energy_accumulator" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15231",
+        "tags" : [ ]
+      },
+      "em_236_powerfactor_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15232",
+        "tags" : [ ]
+      },
+      "em_236_reactive_power_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15233",
+        "tags" : [ ]
+      },
+      "em_236_phase3_line_current_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15226",
+        "tags" : [ ]
+      },
+      "em_236_phase3_neutral_line_voltage_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15229",
+        "tags" : [ ]
+      }
+    }
+  }
+}

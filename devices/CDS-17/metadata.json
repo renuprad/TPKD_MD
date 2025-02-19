@@ -1,0 +1,58 @@
+{
+  "timestamp" : "2024-12-03T10:06:12Z",
+  "version" : "1.5.2",
+  "cloud" : {
+    "resource_type" : "DEVICE"
+  },
+  "system" : {
+    "tags" : [ ],
+    "location" : {
+      "site" : "TW-NTC-TPKD"
+    },
+    "min_loglevel" : 300
+  },
+  "gateway" : {
+    "gateway_id" : "CGW-8"
+  },
+  "localnet" : {
+    "families" : {
+      "iot" : {
+        "addr" : "CDS-17"
+      }
+    }
+  },
+  "testing" : {
+    "nostate" : true,
+    "targets" : {
+      "applied" : {
+        "target_point" : "cds_17_zone_air_co2_concentration_sensor",
+        "target_value" : 67
+      },
+      "invalid" : {
+        "target_point" : "cds_17_zone_air_co2_concentration_sensor",
+        "target_value" : [ ]
+      }
+    }
+  },
+  "features" : {
+    "system" : {
+      "stage" : "alpha"
+    },
+    "writeback" : {
+      "stage" : "alpha"
+    },
+    "pointset" : {
+      "stage" : "alpha"
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "cds_17_zone_air_co2_concentration_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "1427",
+        "tags" : [ ]
+      }
+    }
+  }
+}

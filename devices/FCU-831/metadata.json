@@ -1,0 +1,106 @@
+{
+  "timestamp" : "2024-12-03T10:06:12Z",
+  "version" : "1.5.2",
+  "cloud" : {
+    "resource_type" : "DEVICE"
+  },
+  "system" : {
+    "tags" : [ ],
+    "location" : {
+      "site" : "TW-NTC-TPKD"
+    },
+    "min_loglevel" : 300
+  },
+  "gateway" : {
+    "gateway_id" : "CGW-39"
+  },
+  "localnet" : {
+    "families" : {
+      "iot" : {
+        "addr" : "FCU-831"
+      }
+    }
+  },
+  "testing" : {
+    "nostate" : true,
+    "targets" : {
+      "applied" : {
+        "target_point" : "fcu_831_discharge_fan_run_command",
+        "target_value" : true
+      },
+      "invalid" : {
+        "target_point" : "fcu_831_discharge_fan_run_command",
+        "target_value" : [ ]
+      }
+    }
+  },
+  "features" : {
+    "system" : {
+      "stage" : "alpha"
+    },
+    "writeback" : {
+      "stage" : "alpha"
+    },
+    "pointset" : {
+      "stage" : "alpha"
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "fcu_831_discharge_fan_run_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "6769",
+        "tags" : [ ]
+      },
+      "fcu_831_run_mode" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "6772",
+        "tags" : [ ]
+      },
+      "fcu_831_schedule_run_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "6773",
+        "tags" : [ ]
+      },
+      "fcu_831_discharge_fan_lost_power_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "6771",
+        "tags" : [ ]
+      },
+      "fcu_831_discharge_fan_run_status" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "6770",
+        "tags" : [ ]
+      },
+      "fcu_831_chilled_water_valve_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "6774",
+        "tags" : [ ]
+      },
+      "fcu_831_discharge_fan_speed_mode" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "6828",
+        "tags" : [ ]
+      },
+      "fcu_831_return_air_temperature_setpoint" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "6827",
+        "tags" : [ ]
+      },
+      "fcu_831_return_air_temperature_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "6826",
+        "tags" : [ ]
+      }
+    }
+  }
+}

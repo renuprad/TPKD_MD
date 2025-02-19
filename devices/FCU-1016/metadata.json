@@ -1,0 +1,106 @@
+{
+  "timestamp" : "2024-12-03T10:06:13Z",
+  "version" : "1.5.2",
+  "cloud" : {
+    "resource_type" : "DEVICE"
+  },
+  "system" : {
+    "tags" : [ ],
+    "location" : {
+      "site" : "TW-NTC-TPKD"
+    },
+    "min_loglevel" : 300
+  },
+  "gateway" : {
+    "gateway_id" : "CGW-80"
+  },
+  "localnet" : {
+    "families" : {
+      "iot" : {
+        "addr" : "FCU-1016"
+      }
+    }
+  },
+  "testing" : {
+    "nostate" : true,
+    "targets" : {
+      "applied" : {
+        "target_point" : "fcu_1016_run_mode",
+        "target_value" : true
+      },
+      "invalid" : {
+        "target_point" : "fcu_1016_run_mode",
+        "target_value" : [ ]
+      }
+    }
+  },
+  "features" : {
+    "system" : {
+      "stage" : "alpha"
+    },
+    "writeback" : {
+      "stage" : "alpha"
+    },
+    "pointset" : {
+      "stage" : "alpha"
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "fcu_1016_run_mode" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "12029",
+        "tags" : [ ]
+      },
+      "fcu_1016_return_air_temperature_setpoint" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "12076",
+        "tags" : [ ]
+      },
+      "fcu_1016_discharge_fan_lost_power_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "12028",
+        "tags" : [ ]
+      },
+      "fcu_1016_schedule_run_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "12030",
+        "tags" : [ ]
+      },
+      "fcu_1016_discharge_fan_speed_mode" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "12077",
+        "tags" : [ ]
+      },
+      "fcu_1016_return_air_temperature_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "12075",
+        "tags" : [ ]
+      },
+      "fcu_1016_discharge_fan_run_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "12026",
+        "tags" : [ ]
+      },
+      "fcu_1016_discharge_fan_run_status" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "12027",
+        "tags" : [ ]
+      },
+      "fcu_1016_chilled_water_valve_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "12031",
+        "tags" : [ ]
+      }
+    }
+  }
+}

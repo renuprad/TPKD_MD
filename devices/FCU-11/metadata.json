@@ -1,0 +1,94 @@
+{
+  "timestamp" : "2024-12-03T10:06:12Z",
+  "version" : "1.5.2",
+  "cloud" : {
+    "resource_type" : "DEVICE"
+  },
+  "system" : {
+    "tags" : [ ],
+    "location" : {
+      "site" : "TW-NTC-TPKD"
+    },
+    "min_loglevel" : 300
+  },
+  "gateway" : {
+    "gateway_id" : "CGW-2"
+  },
+  "localnet" : {
+    "families" : {
+      "iot" : {
+        "addr" : "FCU-11"
+      }
+    }
+  },
+  "testing" : {
+    "nostate" : true,
+    "targets" : {
+      "applied" : {
+        "target_point" : "fcu_11_lost_power_alarm",
+        "target_value" : true
+      },
+      "invalid" : {
+        "target_point" : "fcu_11_lost_power_alarm",
+        "target_value" : [ ]
+      }
+    }
+  },
+  "features" : {
+    "system" : {
+      "stage" : "alpha"
+    },
+    "writeback" : {
+      "stage" : "alpha"
+    },
+    "pointset" : {
+      "stage" : "alpha"
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "fcu_11_lost_power_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "188",
+        "tags" : [ ]
+      },
+      "fcu_11_run_status" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "187",
+        "tags" : [ ]
+      },
+      "fcu_11_return_air_temperature_setpoint" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "219",
+        "tags" : [ ]
+      },
+      "fcu_11_discharge_fan_run_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "186",
+        "tags" : [ ]
+      },
+      "fcu_11_schedule_run_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "190",
+        "tags" : [ ]
+      },
+      "fcu_11_return_air_temperature_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "218",
+        "tags" : [ ]
+      },
+      "fcu_11_control_mode" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "189",
+        "tags" : [ ]
+      }
+    }
+  }
+}

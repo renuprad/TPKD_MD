@@ -1,0 +1,35 @@
+{
+  "cloud" : {
+    "auth_type" : "RS256"
+  },
+  "system" : {
+    "location" : {
+      "site" : "TW-NTC-TPKD",
+      "section" : "NTC-TPKD",
+      "position" : {
+        "x" : 0,
+        "y" : 0
+      }
+    },
+    "physical_tag" : {
+      "asset" : {
+        "site" : "TW-NTC-TPKD",
+        "name" : "EM-428",
+        "guid" : "uuid://e5e1ca4f-a4f9-4f6c-bcd1-58c3b10694d6"
+      }
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "power_sensor" : {
+        "units" : "Kilowatts"
+      },
+      "energy_accumulator" : {
+        "units" : "Kilowatt-hours"
+      }
+    }
+  },
+  "version" : 1,
+  "hash" : "58d9d336",
+  "timestamp" : "2021-10-15T11:10:06.923057100Z"
+}

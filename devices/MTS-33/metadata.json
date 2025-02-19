@@ -1,0 +1,34 @@
+{
+  "system": {
+    "location": {
+      "site": "TW-NTC-TPKD",
+      "section": "NTC-TPKD",
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    "physical_tag": {
+      "asset": {
+        "site": "TW-NTC-TPKD",
+        "name": "MTS-33",
+        "guid": "uuid://8f75d6df-5e34-4c03-b98d-3dd74cf339a9"
+      }
+    }
+  },
+  "pointset": {
+    "points": {
+      "illuminance_sensor": {
+        "units": "Percent"
+      },
+      "zone_occupancy_status": {
+        "units": "No-units"
+      }
+    }
+  },
+  "gateway": {
+    "gateway_id": "LTGW-16"
+  },
+  "version": 1,
+  "timestamp": "2021-04-16T18:10:00.7475958+01:00"
+}

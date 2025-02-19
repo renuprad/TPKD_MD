@@ -1,0 +1,59 @@
+{
+  "cloud" : {
+    "auth_type" : "RS256"
+  },
+  "system" : {
+    "location" : {
+      "site" : "TW-NTC-TPKD",
+      "section" : "NTC-TPKD",
+      "position" : {
+        "x" : 0,
+        "y" : 0
+      }
+    },
+    "physical_tag" : {
+      "asset" : {
+        "site" : "TW-NTC-TPKD",
+        "name" : "FCU-1033",
+        "guid" : "uuid://cf0402cd-2059-49de-b37d-5b2fb0b993b1"
+      }
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "return_air_temperature_sensor" : {
+        "units" : "Degrees-celsius"
+      },
+      "return_air_temperature_setpoint" : {
+        "units" : "Degrees-celsius"
+      },
+      "discharge_fan_speed_percentage_command" : {
+        "units" : "Percent"
+      },
+      "chilled_water_valve_percentage_command" : {
+        "units" : "Percent"
+      },
+      "discharge_fan_run_command" : {
+        "units" : "No-units"
+      },
+      "discharge_fan_run_status" : {
+        "units" : "No-units"
+      },
+      "discharge_fan_lost_power_alarm" : {
+        "units" : "No-units"
+      },
+      "run_mode" : {
+        "units" : "No-units"
+      },
+      "schedule_run_command" : {
+        "units" : "No-units"
+      },
+      "discharge_fan_speed_mode" : {
+        "units" : "No-units"
+      }
+    }
+  },
+  "version" : 1,
+  "hash" : "58d9d336",
+  "timestamp" : "2021-10-24T15:48:47.164944900Z"
+}

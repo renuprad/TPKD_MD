@@ -1,0 +1,69 @@
+{
+  "cloud": {
+    "auth_type": "RS256"
+  },
+  "system": {
+    "location": {
+      "site": "TW-NTC-TPKD",
+      "section": "TW-NTC-TPKD",
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    "physical_tag": {
+      "asset": {
+        "site": "TW-NTC-TPKD",
+        "name": "LTGW-8",
+        "guid": "uuid://ef3cbb90-1769-4860-9f3b-2470bcb94a40"
+      }
+    }
+  },
+  "gateway": {
+    "proxy_ids": [
+      "LGRP-1029",
+      "LGRP-1030",
+      "LGRP-1031",
+      "LGRP-1032",
+      "LGRP-1033",
+      "LGRP-1034",
+      "LGRP-1035",
+      "LGRP-1036",
+      "LGRP-1037",
+      "LGRP-1038",
+      "LT-5885",
+      "LT-5886",
+      "LT-5887",
+      "LT-5888",
+      "LT-5889",
+      "LT-5890",
+      "LT-5891",
+      "LT-5892",
+      "LT-5893",
+      "LT-5894",
+      "LT-5895",
+      "LT-5896",
+      "LT-5897",
+      "LT-5898",
+      "LT-5899",
+      "LT-5900",
+      "LT-5901",
+      "LT-5902",
+      "LT-5903",
+      "LT-5904",
+      "LT-5905",
+      "LT-5906",
+      "LT-5907",
+      "LT-5908",
+      "LT-5909",
+      "LMS-1147",
+      "LMS-1148",
+      "LMS-1149",
+      "LMS-1150",
+      "LKP-298",
+      "LKP-299"
+    ]
+  },
+  "timestamp": "2021-10-13T14:32:47.5130813+01:00",
+  "version": 1
+}

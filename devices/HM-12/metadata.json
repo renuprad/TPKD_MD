@@ -1,0 +1,82 @@
+{
+  "timestamp" : "2024-12-03T10:06:12Z",
+  "version" : "1.5.2",
+  "cloud" : {
+    "resource_type" : "DEVICE"
+  },
+  "system" : {
+    "tags" : [ ],
+    "location" : {
+      "site" : "TW-NTC-TPKD"
+    },
+    "min_loglevel" : 300
+  },
+  "gateway" : {
+    "gateway_id" : "CGW-23"
+  },
+  "localnet" : {
+    "families" : {
+      "iot" : {
+        "addr" : "HM-12"
+      }
+    }
+  },
+  "testing" : {
+    "nostate" : true,
+    "targets" : {
+      "applied" : {
+        "target_point" : "hm_12_chilled_return_water_temperature_sensor",
+        "target_value" : 53
+      },
+      "invalid" : {
+        "target_point" : "hm_12_chilled_return_water_temperature_sensor",
+        "target_value" : [ ]
+      }
+    }
+  },
+  "features" : {
+    "system" : {
+      "stage" : "alpha"
+    },
+    "writeback" : {
+      "stage" : "alpha"
+    },
+    "pointset" : {
+      "stage" : "alpha"
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "hm_12_chilled_return_water_temperature_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "4107",
+        "tags" : [ ]
+      },
+      "hm_12_chilled_supply_water_temperature_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "4106",
+        "tags" : [ ]
+      },
+      "hm_12_chilled_water_flowrate_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "4109",
+        "tags" : [ ]
+      },
+      "hm_12_cooling_thermal_power_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "4108",
+        "tags" : [ ]
+      },
+      "hm_12_cooling_thermal_energy_accumulator" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "4110",
+        "tags" : [ ]
+      }
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "timestamp" : "2024-12-03T10:06:13Z",
+  "version" : "1.5.2",
+  "cloud" : {
+    "resource_type" : "DEVICE"
+  },
+  "system" : {
+    "tags" : [ ],
+    "location" : {
+      "site" : "TW-NTC-TPKD"
+    },
+    "min_loglevel" : 300
+  },
+  "gateway" : {
+    "gateway_id" : "CGW-55"
+  },
+  "localnet" : {
+    "families" : {
+      "iot" : {
+        "addr" : "FACP-11"
+      }
+    }
+  },
+  "testing" : {
+    "nostate" : true,
+    "targets" : {
+      "applied" : {
+        "target_point" : "facp_11_fire_alarm_1",
+        "target_value" : true
+      },
+      "invalid" : {
+        "target_point" : "facp_11_fire_alarm_1",
+        "target_value" : [ ]
+      }
+    }
+  },
+  "features" : {
+    "system" : {
+      "stage" : "alpha"
+    },
+    "writeback" : {
+      "stage" : "alpha"
+    },
+    "pointset" : {
+      "stage" : "alpha"
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "facp_11_fire_alarm_1" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "8728",
+        "tags" : [ ]
+      },
+      "facp_11_fire_alarm_2" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "8729",
+        "tags" : [ ]
+      },
+      "facp_11_panel_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "8730",
+        "tags" : [ ]
+      }
+    }
+  }
+}

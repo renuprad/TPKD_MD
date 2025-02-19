@@ -1,0 +1,50 @@
+{
+  "cloud" : {
+    "auth_type" : "RS256"
+  },
+  "system" : {
+    "location" : {
+      "site" : "TW-NTC-TPKD",
+      "section" : "NTC-TPKD",
+      "position" : {
+        "x" : 0,
+        "y" : 0
+      }
+    },
+    "physical_tag" : {
+      "asset" : {
+        "site" : "TW-NTC-TPKD",
+        "name" : "EF-43",
+        "guid" : "uuid://d9817f41-7fc9-4962-bc0a-ec2cd8de9cb6"
+      }
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "run_command" : {
+        "units" : "No-units"
+      },
+      "speed_frequency_command" : {
+        "units" : "Hertz"
+      },
+      "run_mode" : {
+        "units" : "No-units"
+      },
+      "run_status" : {
+        "units" : "No-units"
+      },
+      "lost_power_alarm" : {
+        "units" : "No-units"
+      },
+      "low_differential_pressure_alarm" : {
+        "units" : "No-units"
+      },
+      "speed_frequency_sensor" : {
+        "units" : "Hertz"
+      }
+    }
+  },
+  "version" : 1,
+  "hash" : "58d9d336",
+  "timestamp" : "2021-10-15T11:10:20.072079800Z"
+}

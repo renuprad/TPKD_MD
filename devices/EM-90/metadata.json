@@ -1,0 +1,100 @@
+{
+  "timestamp" : "2024-12-03T10:06:12Z",
+  "version" : "1.5.2",
+  "cloud" : {
+    "resource_type" : "DEVICE"
+  },
+  "system" : {
+    "tags" : [ ],
+    "location" : {
+      "site" : "TW-NTC-TPKD"
+    },
+    "min_loglevel" : 300
+  },
+  "gateway" : {
+    "gateway_id" : "CGW-30"
+  },
+  "localnet" : {
+    "families" : {
+      "iot" : {
+        "addr" : "EM-90"
+      }
+    }
+  },
+  "testing" : {
+    "nostate" : true,
+    "targets" : {
+      "applied" : {
+        "target_point" : "em_90_phase3_neutral_line_voltage_sensor",
+        "target_value" : 53
+      },
+      "invalid" : {
+        "target_point" : "em_90_phase3_neutral_line_voltage_sensor",
+        "target_value" : [ ]
+      }
+    }
+  },
+  "features" : {
+    "system" : {
+      "stage" : "alpha"
+    },
+    "writeback" : {
+      "stage" : "alpha"
+    },
+    "pointset" : {
+      "stage" : "alpha"
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "em_90_phase3_neutral_line_voltage_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "5463",
+        "tags" : [ ]
+      },
+      "em_90_phase1_line_current_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "5458",
+        "tags" : [ ]
+      },
+      "em_90_phase2_line_current_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "5459",
+        "tags" : [ ]
+      },
+      "em_90_power_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "5464",
+        "tags" : [ ]
+      },
+      "em_90_phase2_neutral_line_voltage_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "5462",
+        "tags" : [ ]
+      },
+      "em_90_energy_accumulator" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "5465",
+        "tags" : [ ]
+      },
+      "em_90_phase1_neutral_line_voltage_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "5461",
+        "tags" : [ ]
+      },
+      "em_90_phase3_line_current_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "5460",
+        "tags" : [ ]
+      }
+    }
+  }
+}

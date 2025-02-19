@@ -1,0 +1,3812 @@
+{
+  "timestamp" : "2024-12-05T11:55:36Z",
+  "version" : "1.5.2",
+  "cloud" : {
+    "auth_type" : "RS256",
+    "resource_type" : "DEVICE"
+  },
+  "system" : {
+    "tags" : [ ],
+    "location" : {
+      "site" : "TW-NTC-TPKD"
+    },
+    "hardware" : {
+      "make" : "RadixIoT",
+      "model" : "Mango"
+    },
+    "software" : {
+      "os" : "Linux 5.10.0-28-amd64 amd64",
+      "build" : "2024-10-30T16:17:45Z",
+      "firmware" : "5.3.0"
+    },
+    "min_loglevel" : 300
+  },
+  "discovery" : {
+    "families" : {
+      "vendor" : { },
+      "bacnet" : { },
+      "iot" : { }
+    }
+  },
+  "localnet" : {
+    "families" : {
+      "ether" : {
+        "addr" : "2C:58:B9:6C:7A:88"
+      },
+      "ipv4" : {
+        "addr" : "100.87.132.138"
+      },
+      "ipv6" : {
+        "addr" : "FE80:0:0:0:2E58:B9FF:FE6C:7A88"
+      },
+      "bacnet" : {
+        "addr" : "9999"
+      },
+      "iot" : {
+        "addr" : "SRV-2"
+      }
+    }
+  },
+  "testing" : {
+    "targets" : {
+      "failure" : {
+        "target_point" : "poll_duration_modbus_100_87_132_129",
+        "target_value" : 69
+      },
+      "invalid" : {
+        "target_point" : "poll_duration_modbus_100_87_132_129",
+        "target_value" : [ ]
+      }
+    }
+  },
+  "features" : {
+    "endpoint.config" : {
+      "stage" : "alpha"
+    },
+    "enumeration.families" : {
+      "stage" : "alpha"
+    },
+    "enumeration.features" : {
+      "stage" : "alpha"
+    },
+    "system.mode" : {
+      "stage" : "alpha"
+    },
+    "discovery.scan" : {
+      "stage" : "alpha"
+    },
+    "endpoint" : {
+      "stage" : "alpha"
+    },
+    "system" : {
+      "stage" : "alpha"
+    },
+    "writeback" : {
+      "stage" : "alpha"
+    },
+    "discovery" : {
+      "stage" : "alpha"
+    },
+    "enumeration.pointset" : {
+      "stage" : "alpha"
+    },
+    "pointset" : {
+      "stage" : "alpha"
+    },
+    "enumeration" : {
+      "stage" : "alpha"
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "poll_duration_modbus_100_87_132_129" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17042",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_116_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17495",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_128" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17420",
+        "tags" : [ ]
+      },
+      "idle_database_connections_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17437",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_125" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17111",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_124" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17186",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_127" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17408",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_126" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17129",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_121" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17138",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_116" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17089",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_120" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17105",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_117" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17227",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_123" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17081",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_114" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17203",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_122" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17045",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_115" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17224",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_70_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17497",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_118" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17155",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_59_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17508",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_119" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17431",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17433",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_120" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17107",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_123" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17083",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_15_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17512",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_124" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17188",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_80_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17463",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_121" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17140",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_122" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17047",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_35_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17503",
+        "tags" : [ ]
+      },
+      "jvm_free_memory_mb_mango_internal" : {
+        "units" : " MiB",
+        "writable" : false,
+        "ref" : "23",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_118" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17153",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_117" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17225",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_60_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17467",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_119" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17429",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_114" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17201",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_79_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17571",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_113" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17108",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_116" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17087",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_115" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17222",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_110" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17414",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_127" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17410",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_128" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17422",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_112" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17117",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_125" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17113",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_111" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17192",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_126" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17131",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_129" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17044",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_130" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17407",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_131" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17173",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_90_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17453",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_134" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17125",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_135" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17092",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_69_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17472",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_132" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17116",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_133" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17101",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_25_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17511",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_126_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17519",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_107" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17078",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_106" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17054",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_109" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17426",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_103" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17159",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_102" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17072",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_105" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17213",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_104" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17198",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_39_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17526",
+        "tags" : [ ]
+      },
+      "time-series_database_write_threads_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17028",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_101" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17063",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_100" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17057",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_94_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17548",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_101" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17065",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_102" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17074",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_100" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17059",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_50_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17464",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_131_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17550",
+        "tags" : [ ]
+      },
+      "system_cpu_load_mango_internal" : {
+        "units" : " %",
+        "writable" : false,
+        "ref" : "24",
+        "tags" : [ ]
+      },
+      "low_priority_tasks_queued_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17443",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_106_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17446",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_105" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17215",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_100" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17058",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_49_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17541",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_106" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17056",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_101" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17064",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_103" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17161",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_102" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17073",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_104" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17200",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_103" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17160",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_109" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17428",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_104" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17199",
+        "tags" : [ ]
+      },
+      "time-series_database_queue_size_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17027",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_105" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17214",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_107" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17080",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_106" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17055",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_107" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17079",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_40_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17480",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_109" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17427",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_3_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17471",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_112" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17119",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_113" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17110",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_110" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17416",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_111" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17194",
+        "tags" : [ ]
+      },
+      "docs_filestore_file_store_usage_bytes_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17582",
+        "tags" : [ ]
+      },
+      "data_file_data_source_compiled_template_filestore_file_store_usage_bytes_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17578",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_64_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17537",
+        "tags" : [ ]
+      },
+      "jvm_peak_thread_count_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17610",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_31_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17547",
+        "tags" : [ ]
+      },
+      "mango_process_user_cpu_time_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17602",
+        "tags" : [ ]
+      },
+      "roles_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17030",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_41_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17468",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_111_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17462",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_30_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17456",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_112_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17465",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_SRV-2_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17562",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_150" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17219",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_65_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17506",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_95_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17461",
+        "tags" : [ ]
+      },
+      "mango_process_kernel_cpu_time_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17597",
+        "tags" : [ ]
+      },
+      "data_file_data_source_template_filestore_file_store_usage_bytes_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17579",
+        "tags" : [ ]
+      },
+      "filestore_partition_usable_space_gb_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17576",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_149" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17174",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_9" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17181",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_11_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17534",
+        "tags" : [ ]
+      },
+      "low_priority_tasks_currently_running_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17442",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_44_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17527",
+        "tags" : [ ]
+      },
+      "idle_read-only_database_connections_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17438",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_61_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17557",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_8" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17208",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_7" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17178",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_6" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17121",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_29_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17478",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_5" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17190",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_99_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17483",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_4" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17157",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_3" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17151",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_2" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17205",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_1" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17076",
+        "tags" : [ ]
+      },
+      "Publishers_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "6",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_10_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17457",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_135" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17090",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_132" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17114",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_131" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17171",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_134" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17123",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_133" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17099",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_130" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17405",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_98_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17538",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_45_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17484",
+        "tags" : [ ]
+      },
+      "http_server_queue_size_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17589",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_127_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17477",
+        "tags" : [ ]
+      },
+      "active_user_sessions_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "15",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_150" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17220",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_149_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17565",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_92" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17095",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_91" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17419",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_94" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17170",
+        "tags" : [ ]
+      },
+      "sql_database_partition_total_space_gb_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17591",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_93" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17134",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_90" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17086",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_99" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17185",
+        "tags" : [ ]
+      },
+      "jvm_daemon_thread_count_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17609",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_96" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17041",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_95" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17098",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_98" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17137",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_97" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17413",
+        "tags" : [ ]
+      },
+      "jvm_thread_count_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17608",
+        "tags" : [ ]
+      },
+      "ma_home_usage_bytes_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17585",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_117_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17570",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_80" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17401",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_38_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17531",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_83" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17212",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_82" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17197",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_89" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17149",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_88" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17143",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_87" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17425",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_86" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17104",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_34_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17502",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_78_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17530",
+        "tags" : [ ]
+      },
+      "backdate_poster_running_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17604",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_130_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17555",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_70" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17371",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_113_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17475",
+        "tags" : [ ]
+      },
+      "user_file_stores_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17024",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_72" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17377",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_71" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17374",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_78" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17395",
+        "tags" : [ ]
+      },
+      "excel_reports_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "16",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_77" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17392",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_125_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17498",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_79" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17398",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_83_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17520",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_74" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17383",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_73" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17380",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_76" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17389",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_75" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17386",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_66_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17544",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_123_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17535",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_68_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17505",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_93_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17460",
+        "tags" : [ ]
+      },
+      "Published_points_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17029",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_32_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17452",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_61" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17344",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_60" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17341",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_76_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17542",
+        "tags" : [ ]
+      },
+      "nosql_partition_total_space_gb_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17586",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_67" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17362",
+        "tags" : [ ]
+      },
+      "active_database_connections_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17435",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_66" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17359",
+        "tags" : [ ]
+      },
+      "global_scripts_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17031",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_69" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17368",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_132_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17543",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_68" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17365",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_63" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17350",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_62" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17347",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_65" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17356",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_64" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17353",
+        "tags" : [ ]
+      },
+      "poll_duration_bacnet_network" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17162",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_115_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17523",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_53_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17563",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_110" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17415",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_111" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17193",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_112" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17118",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_50" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17311",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_113" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17109",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_114" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17202",
+        "tags" : [ ]
+      },
+      "data_points_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "25",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_115" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17223",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_116" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17088",
+        "tags" : [ ]
+      },
+      "backdates_queued_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17605",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_117" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17226",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_118" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17154",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_56" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17329",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_119" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17430",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_55" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17326",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_58" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17335",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_57" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17332",
+        "tags" : [ ]
+      },
+      "mango_process_minor_soft_faults_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17599",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_7_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17449",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_52" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17317",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_51" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17314",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_54" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17323",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_53" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17320",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_100_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17553",
+        "tags" : [ ]
+      },
+      "Maintenance_events_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17032",
+        "tags" : [ ]
+      },
+      "mango_process_cpu_load_mango_internal" : {
+        "units" : " %",
+        "writable" : false,
+        "ref" : "12",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_59" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17338",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_90" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17084",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_91" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17417",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_94" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17168",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_74_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17487",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_95" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17096",
+        "tags" : [ ]
+      },
+      "jvm_total_threads_started_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17611",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_92" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17093",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_120" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17106",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_93" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17132",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_121" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17139",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_5_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17556",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_98" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17135",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_122" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17046",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_99" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17183",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_123" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17082",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_96" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17039",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_124" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17187",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_97" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17411",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_125" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17112",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_21_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17499",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_126" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17130",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_127" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17409",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_128" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17421",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_134_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17492",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_129" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17043",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_45" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17296",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_44" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17293",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_121_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17494",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_51_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17504",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_47" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17302",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_46" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17299",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_87_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17559",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_41" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17284",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_40" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17281",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_43" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17290",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_42" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17287",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_49" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17308",
+        "tags" : [ ]
+      },
+      "nosql_database_size_gb_mango_internal" : {
+        "units" : " GiB",
+        "writable" : false,
+        "ref" : "2",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_48" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17305",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_bacnet_network" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17164",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_80" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17399",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_83" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17210",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_17_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17536",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_130" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17406",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_131" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17172",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_82" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17195",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_132" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17115",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_87" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17423",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_133" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17100",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_88" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17141",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_134" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17124",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_135" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17091",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_86" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17102",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_89" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17147",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_102_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17500",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_34" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17263",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_33" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17260",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_55_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17568",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_36" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17269",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_35" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17266",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_30" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17251",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_72_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17566",
+        "tags" : [ ]
+      },
+      "http_server_threads_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17590",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_32" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17257",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_31" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17254",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_38" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17275",
+        "tags" : [ ]
+      },
+      "total_backdates_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17606",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_37" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17272",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_39" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17278",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_9_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17481",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_72" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17375",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_73" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17378",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_70" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17369",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_71" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17372",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_149" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17176",
+        "tags" : [ ]
+      },
+      "point_value_asynchronous_saves_per_second_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17022",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_76" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17387",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_77" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17390",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_74" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17381",
+        "tags" : [ ]
+      },
+      "nosql_partition_used_space_gb_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17587",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_75" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17384",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_149" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17175",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_78" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17393",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_79" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17396",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_23" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17218",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_22" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17062",
+        "tags" : [ ]
+      },
+      "json_data_entries_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17025",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_150" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17221",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_25" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17236",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_24" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17233",
+        "tags" : [ ]
+      },
+      "event_detectors_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "13",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_21" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17146",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_20" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17230",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_36_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17490",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_27" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17242",
+        "tags" : [ ]
+      },
+      "mango_process_bytes_read_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17594",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_19_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17522",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_26" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17239",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_29" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17248",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_28" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17245",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_89_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17470",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_1_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17517",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_61" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17342",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_62" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17345",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_60" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17339",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_65" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17354",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_66" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17357",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_63" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17348",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_64" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17351",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_69" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17366",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_67" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17360",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_92_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17561",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_68" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17363",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_12" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17128",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_44" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17292",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_11" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17167",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_43" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17289",
+        "tags" : [ ]
+      },
+      "sql_database_partition_usable_space_gb_mango_internal" : {
+        "units" : " GiB",
+        "writable" : false,
+        "ref" : "3",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_14" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17038",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_46" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17298",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_13" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17404",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_45" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17295",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_37_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17507",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_48" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17304",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_47" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17301",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_10" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17050",
+        "tags" : [ ]
+      },
+      "mango_process_open_files_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17600",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_49" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17307",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_19" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17053",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_40" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17280",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_13_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17516",
+        "tags" : [ ]
+      },
+      "watchlist_count_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "7",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_15" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17068",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_18" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17035",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_42" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17286",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_17" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17071",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_41" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17283",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_57_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17455",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_50" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17309",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_51" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17312",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_82_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17549",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_54" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17321",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_55" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17324",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_52" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17315",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_53" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17318",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_58" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17333",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_59" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17336",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_56" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17327",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_57" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17330",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_33" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17259",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_118_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17486",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_32" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17256",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_35" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17265",
+        "tags" : [ ]
+      },
+      "mailing_lists_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "4",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_34" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17262",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_37" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17271",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_36" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17268",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_39" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17277",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_38" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17274",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_47_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17521",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_104_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17552",
+        "tags" : [ ]
+      },
+      "jvm_uptime_seconds_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17607",
+        "tags" : [ ]
+      },
+      "mango_process_bytes_written_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17595",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_31" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17253",
+        "tags" : [ ]
+      },
+      "poll_duration_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17432",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_30" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17250",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_40" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17279",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_43" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17288",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_44" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17291",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_41" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17282",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_42" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17285",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_124_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17513",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_47" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17300",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_48" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17303",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_45" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17294",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_46" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17297",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_66" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17358",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_65" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17355",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_49" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17306",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_68" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17364",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_67" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17361",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_33_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17524",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_77_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17514",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_69" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17367",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_114_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17546",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_60" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17340",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_62" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17346",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_61" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17343",
+        "tags" : [ ]
+      },
+      "forkjoinpool_common_pool_size_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17596",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_64" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17352",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_63" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17349",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_32" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17255",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_33" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17258",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_30" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17249",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_31" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17252",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_36" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17267",
+        "tags" : [ ]
+      },
+      "sql_database_partition_used_space_gb_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17592",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_37" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17270",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_34" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17261",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_35" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17264",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_55" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17325",
+        "tags" : [ ]
+      },
+      "time-series_database_write_speed_values_s_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17026",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_54" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17322",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_38" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17273",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_57" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17331",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_39" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17276",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_56" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17328",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_59" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17337",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_58" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17334",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_23_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17560",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_51" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17313",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_50" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17310",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_67_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17540",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_53" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17319",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17434",
+        "tags" : [ ]
+      },
+      "mango_process_virtual_memory_Size_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17603",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_52" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17316",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_42_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17491",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_1" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17077",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_3" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17152",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_2" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17206",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_21" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17144",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_22" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17060",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_20" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17228",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_25" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17234",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_26" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17237",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_23" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17216",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_24" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17231",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_97_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17569",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_29" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17246",
+        "tags" : [ ]
+      },
+      "http_server_idle_threads_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17588",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_27" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17240",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_28" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17243",
+        "tags" : [ ]
+      },
+      "default_filestore_file_store_usage_bytes_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17581",
+        "tags" : [ ]
+      },
+      "jvm_classes_loaded_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17019",
+        "tags" : [ ]
+      },
+      "mango_partition_used_space_gb_mango_internal" : {
+        "units" : " GiB",
+        "writable" : false,
+        "ref" : "19",
+        "tags" : [ ]
+      },
+      "os_load_average_1_minute_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17584",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_96_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17458",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_109_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17479",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_10" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17048",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_43_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17551",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_11" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17165",
+        "tags" : [ ]
+      },
+      "mango_process_major_hard_faults_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17598",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_14" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17036",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_15" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17066",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_12" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17126",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_13" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17402",
+        "tags" : [ ]
+      },
+      "event_handlers_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "18",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_18" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17033",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_19" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17051",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_17" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17069",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_5" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17191",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_4" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17158",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_7" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17179",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_6" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17122",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_9" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17182",
+        "tags" : [ ]
+      },
+      "consecutive_run_polls_modbus_100_87_132_8" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17209",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_28_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17518",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_29" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17247",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_22" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17061",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_21" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17145",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_24" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17232",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_23" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17217",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_26" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17238",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_25" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17235",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_28" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17244",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_27" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17241",
+        "tags" : [ ]
+      },
+      "medium_priority_tasks_queued_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17445",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_20" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17229",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_46_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17532",
+        "tags" : [ ]
+      },
+      "jvm_maximum_available_memory_mb_mango_internal" : {
+        "units" : " MiB",
+        "writable" : false,
+        "ref" : "11",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_63_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17496",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_19" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17052",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_18" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17034",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_128_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17515",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_27_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17473",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_11" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17166",
+        "tags" : [ ]
+      },
+      "users_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "20",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_10" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17049",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_129_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17554",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_13" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17403",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_12" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17127",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_15" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17067",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_14" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17037",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_17" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17070",
+        "tags" : [ ]
+      },
+      "filestore_partition_used_space_gb_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17577",
+        "tags" : [ ]
+      },
+      "mango_partition_total_space_gb_mango_internal" : {
+        "units" : " GiB",
+        "writable" : false,
+        "ref" : "14",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_110_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17493",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_62_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17501",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_1" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17075",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_105_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17574",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_2" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17204",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_7" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17177",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_8" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17207",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_9" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17180",
+        "tags" : [ ]
+      },
+      "high_priority_tasks_queued_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17441",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_3" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17150",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_150_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17573",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_4" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17156",
+        "tags" : [ ]
+      },
+      "active_read-only_database_connections_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17436",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_5" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17189",
+        "tags" : [ ]
+      },
+      "poll_duration_modbus_100_87_132_6" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17120",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_48_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17447",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_bacnet_network" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17163",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_26_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17529",
+        "tags" : [ ]
+      },
+      "jvm_used_memory_mb_mango_internal" : {
+        "units" : " MiB",
+        "writable" : false,
+        "ref" : "10",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_24_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17459",
+        "tags" : [ ]
+      },
+      "high_priority_work_items_currently_running_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17439",
+        "tags" : [ ]
+      },
+      "mango_process_resident_set_size_rss_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17601",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_12_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17451",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_56_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17485",
+        "tags" : [ ]
+      },
+      "public_filestore_file_store_usage_bytes_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17583",
+        "tags" : [ ]
+      },
+      "excel_report_templates_file_store_usage_bytes_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17580",
+        "tags" : [ ]
+      },
+      "medium_priority_tasks_currently_running_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17444",
+        "tags" : [ ]
+      },
+      "system_uptime_hrs_mango_internal" : {
+        "units" : " hrs",
+        "writable" : false,
+        "ref" : "21",
+        "tags" : [ ]
+      },
+      "jvm_classes_total_loaded_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17020",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_22_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17450",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_107_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17528",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_2_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17567",
+        "tags" : [ ]
+      },
+      "mango_partition_usable_space_gb_mango_internal" : {
+        "units" : " GiB",
+        "writable" : false,
+        "ref" : "5",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_58_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17454",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_14_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17509",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_20_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17539",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_133_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17510",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_122_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17545",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_6_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17533",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_75_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17474",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_86_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17469",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_88" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17142",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_87" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17424",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_89" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17148",
+        "tags" : [ ]
+      },
+      "currently_scheduled_high_priority_tasks_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17440",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_80" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17400",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_82" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17196",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_52_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17448",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_83" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17211",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_86" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17103",
+        "tags" : [ ]
+      },
+      "data_sources_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "8",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_77" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17391",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_76" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17388",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_79" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17397",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_78" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17394",
+        "tags" : [ ]
+      },
+      "nosql_partition_usable_space_gb_mango_internal" : {
+        "units" : " GiB",
+        "writable" : false,
+        "ref" : "1",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_71" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17373",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_70" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17370",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_73" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17379",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_73_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17558",
+        "tags" : [ ]
+      },
+      "point_value_synchronous_saves_per_second_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17023",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_72" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17376",
+        "tags" : [ ]
+      },
+      "excel_report_templates_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "9",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_75" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17385",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_74" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17382",
+        "tags" : [ ]
+      },
+      "jvm_classes_unloaded_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17021",
+        "tags" : [ ]
+      },
+      "jvm_available_processors_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17593",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_88_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17489",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_103_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17482",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_120_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17572",
+        "tags" : [ ]
+      },
+      "available_upgrades_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "22",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_101_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17466",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_18_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17488",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_71_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17564",
+        "tags" : [ ]
+      },
+      "sql_database_size_gb_mango_internal" : {
+        "units" : " GiB",
+        "writable" : false,
+        "ref" : "17",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_54_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17476",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_99" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17184",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_98" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17136",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_91" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17418",
+        "tags" : [ ]
+      },
+      "filestore_partition_total_space_gb_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17575",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_90" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17085",
+        "tags" : [ ]
+      },
+      "queue_size_for_publisher_cgw_8_mango_internal" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17525",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_93" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17133",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_92" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17094",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_95" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17097",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_94" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17169",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_97" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17412",
+        "tags" : [ ]
+      },
+      "poll_success_percentage_modbus_100_87_132_96" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "17040",
+        "tags" : [ ]
+      }
+    }
+  }
+}

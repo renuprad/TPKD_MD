@@ -1,0 +1,118 @@
+{
+  "timestamp" : "2024-12-03T10:06:12Z",
+  "version" : "1.5.2",
+  "cloud" : {
+    "resource_type" : "DEVICE"
+  },
+  "system" : {
+    "tags" : [ ],
+    "location" : {
+      "site" : "TW-NTC-TPKD"
+    },
+    "min_loglevel" : 300
+  },
+  "gateway" : {
+    "gateway_id" : "CGW-13"
+  },
+  "localnet" : {
+    "families" : {
+      "iot" : {
+        "addr" : "EM-47"
+      }
+    }
+  },
+  "testing" : {
+    "nostate" : true,
+    "targets" : {
+      "applied" : {
+        "target_point" : "em_47_reactive_power_sensor",
+        "target_value" : 63
+      },
+      "invalid" : {
+        "target_point" : "em_47_reactive_power_sensor",
+        "target_value" : [ ]
+      }
+    }
+  },
+  "features" : {
+    "system" : {
+      "stage" : "alpha"
+    },
+    "writeback" : {
+      "stage" : "alpha"
+    },
+    "pointset" : {
+      "stage" : "alpha"
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "em_47_reactive_power_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "3479",
+        "tags" : [ ]
+      },
+      "em_47_phase3_neutral_line_voltage_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "3475",
+        "tags" : [ ]
+      },
+      "em_47_powerfactor_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "3478",
+        "tags" : [ ]
+      },
+      "em_47_phase1_neutral_line_voltage_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "3473",
+        "tags" : [ ]
+      },
+      "em_47_phase2_neutral_line_voltage_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "3474",
+        "tags" : [ ]
+      },
+      "em_47_phase1_line_current_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "3470",
+        "tags" : [ ]
+      },
+      "em_47_phase3_line_current_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "3472",
+        "tags" : [ ]
+      },
+      "em_47_energy_accumulator" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "3477",
+        "tags" : [ ]
+      },
+      "em_47_line_frequency_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "3480",
+        "tags" : [ ]
+      },
+      "em_47_power_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "3476",
+        "tags" : [ ]
+      },
+      "em_47_phase2_line_current_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "3471",
+        "tags" : [ ]
+      }
+    }
+  }
+}

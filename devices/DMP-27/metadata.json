@@ -1,0 +1,82 @@
+{
+  "timestamp" : "2024-12-03T10:06:12Z",
+  "version" : "1.5.2",
+  "cloud" : {
+    "resource_type" : "DEVICE"
+  },
+  "system" : {
+    "tags" : [ ],
+    "location" : {
+      "site" : "TW-NTC-TPKD"
+    },
+    "min_loglevel" : 300
+  },
+  "gateway" : {
+    "gateway_id" : "CGW-29"
+  },
+  "localnet" : {
+    "families" : {
+      "iot" : {
+        "addr" : "DMP-27"
+      }
+    }
+  },
+  "testing" : {
+    "nostate" : true,
+    "targets" : {
+      "applied" : {
+        "target_point" : "dmp_27_run_mode",
+        "target_value" : false
+      },
+      "invalid" : {
+        "target_point" : "dmp_27_run_mode",
+        "target_value" : [ ]
+      }
+    }
+  },
+  "features" : {
+    "system" : {
+      "stage" : "alpha"
+    },
+    "writeback" : {
+      "stage" : "alpha"
+    },
+    "pointset" : {
+      "stage" : "alpha"
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "dmp_27_run_mode" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "5397",
+        "tags" : [ ]
+      },
+      "dmp_27_supply_air_isolation_damper_closed_status" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "5400",
+        "tags" : [ ]
+      },
+      "dmp_27_supply_air_isolation_damper_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "5396",
+        "tags" : [ ]
+      },
+      "dmp_27_supply_air_isolation_damper_open_status" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "5399",
+        "tags" : [ ]
+      },
+      "dmp_27_schedule_run_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "5398",
+        "tags" : [ ]
+      }
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "timestamp" : "2024-12-03T10:06:12Z",
+  "version" : "1.5.2",
+  "cloud" : {
+    "resource_type" : "DEVICE"
+  },
+  "system" : {
+    "tags" : [ ],
+    "location" : {
+      "site" : "TW-NTC-TPKD"
+    },
+    "min_loglevel" : 300
+  },
+  "gateway" : {
+    "gateway_id" : "CGW-12"
+  },
+  "localnet" : {
+    "families" : {
+      "iot" : {
+        "addr" : "FCU-90"
+      }
+    }
+  },
+  "testing" : {
+    "nostate" : true,
+    "targets" : {
+      "applied" : {
+        "target_point" : "fcu_90_return_air_temperature_setpoint",
+        "target_value" : 67
+      },
+      "invalid" : {
+        "target_point" : "fcu_90_return_air_temperature_setpoint",
+        "target_value" : [ ]
+      }
+    }
+  },
+  "features" : {
+    "system" : {
+      "stage" : "alpha"
+    },
+    "writeback" : {
+      "stage" : "alpha"
+    },
+    "pointset" : {
+      "stage" : "alpha"
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "fcu_90_return_air_temperature_setpoint" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "3420",
+        "tags" : [ ]
+      },
+      "fcu_90_schedule_run_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "3468",
+        "tags" : [ ]
+      },
+      "fcu_90_discharge_fan_lost_power_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "3466",
+        "tags" : [ ]
+      },
+      "fcu_90_discharge_fan_run_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "3464",
+        "tags" : [ ]
+      },
+      "fcu_90_discharge_fan_run_status" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "3465",
+        "tags" : [ ]
+      },
+      "fcu_90_discharge_fan_speed_percentage_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "3421",
+        "tags" : [ ]
+      },
+      "fcu_90_return_air_temperature_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "3419",
+        "tags" : [ ]
+      },
+      "fcu_90_run_mode" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "3467",
+        "tags" : [ ]
+      }
+    }
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "timestamp" : "2024-12-03T10:06:13Z",
+  "version" : "1.5.2",
+  "cloud" : {
+    "resource_type" : "DEVICE"
+  },
+  "system" : {
+    "tags" : [ ],
+    "location" : {
+      "site" : "TW-NTC-TPKD"
+    },
+    "min_loglevel" : 300
+  },
+  "gateway" : {
+    "gateway_id" : "CGW-131"
+  },
+  "localnet" : {
+    "families" : {
+      "iot" : {
+        "addr" : "PCWP-1"
+      }
+    }
+  },
+  "testing" : {
+    "nostate" : true,
+    "targets" : {
+      "applied" : {
+        "target_point" : "pcwp_1_run_mode",
+        "target_value" : false
+      },
+      "invalid" : {
+        "target_point" : "pcwp_1_run_mode",
+        "target_value" : [ ]
+      }
+    }
+  },
+  "features" : {
+    "system" : {
+      "stage" : "alpha"
+    },
+    "writeback" : {
+      "stage" : "alpha"
+    },
+    "pointset" : {
+      "stage" : "alpha"
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "pcwp_1_run_mode" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15981",
+        "tags" : [ ]
+      },
+      "pcwp_1_control_status" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15982",
+        "tags" : [ ]
+      },
+      "pcwp_1_reset_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15983",
+        "tags" : [ ]
+      },
+      "pcwp_1_low_differential_pressure_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15984",
+        "tags" : [ ]
+      },
+      "pcwp_1_simulation_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15985",
+        "tags" : [ ]
+      },
+      "pcwp_1_lost_power_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15980",
+        "tags" : [ ]
+      },
+      "pcwp_1_speed_frequency_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16027",
+        "tags" : [ ]
+      },
+      "pcwp_1_end_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15986",
+        "tags" : [ ]
+      },
+      "pcwp_1_speed_frequency_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16026",
+        "tags" : [ ]
+      },
+      "pcwp_1_condensing_water_isolation_valve_mode" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15989",
+        "tags" : [ ]
+      },
+      "pcwp_1_condensing_water_isolation_valve_percentage_setpoint" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16032",
+        "tags" : [ ]
+      },
+      "pcwp_1_condensing_water_isolation_valve_percentage_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16028",
+        "tags" : [ ]
+      },
+      "pcwp_1_pump_speed_mode" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15988",
+        "tags" : [ ]
+      },
+      "pcwp_1_condensing_water_flowrate_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15992",
+        "tags" : [ ]
+      },
+      "pcwp_1_run_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15978",
+        "tags" : [ ]
+      },
+      "pcwp_1_pump_speed_frequency_setpoint" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16031",
+        "tags" : [ ]
+      },
+      "pcwp_1_start_mode" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15990",
+        "tags" : [ ]
+      },
+      "pcwp_1_run_time_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16030",
+        "tags" : [ ]
+      },
+      "pcwp_1_condensing_water_isolation_valve_percentage_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16029",
+        "tags" : [ ]
+      },
+      "pcwp_1_start_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15987",
+        "tags" : [ ]
+      },
+      "pcwp_1_reset_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15991",
+        "tags" : [ ]
+      },
+      "pcwp_1_run_status" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15979",
+        "tags" : [ ]
+      }
+    }
+  }
+}

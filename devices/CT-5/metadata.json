@@ -1,0 +1,178 @@
+{
+  "timestamp" : "2024-12-03T10:06:13Z",
+  "version" : "1.5.2",
+  "cloud" : {
+    "resource_type" : "DEVICE"
+  },
+  "system" : {
+    "tags" : [ ],
+    "location" : {
+      "site" : "TW-NTC-TPKD"
+    },
+    "min_loglevel" : 300
+  },
+  "gateway" : {
+    "gateway_id" : "CGW-82"
+  },
+  "localnet" : {
+    "families" : {
+      "iot" : {
+        "addr" : "CT-5"
+      }
+    }
+  },
+  "testing" : {
+    "nostate" : true,
+    "targets" : {
+      "applied" : {
+        "target_point" : "ct_5_schedule_command",
+        "target_value" : false
+      },
+      "invalid" : {
+        "target_point" : "ct_5_schedule_command",
+        "target_value" : [ ]
+      }
+    }
+  },
+  "features" : {
+    "system" : {
+      "stage" : "alpha"
+    },
+    "writeback" : {
+      "stage" : "alpha"
+    },
+    "pointset" : {
+      "stage" : "alpha"
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "ct_5_schedule_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "12172",
+        "tags" : [ ]
+      },
+      "ct_5_control_status" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "12175",
+        "tags" : [ ]
+      },
+      "ct_5_start_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "12174",
+        "tags" : [ ]
+      },
+      "ct_5_reset_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "12180",
+        "tags" : [ ]
+      },
+      "ct_5_speed_frequency_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "12232",
+        "tags" : [ ]
+      },
+      "ct_5_run_status" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "12169",
+        "tags" : [ ]
+      },
+      "ct_5_run_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "12168",
+        "tags" : [ ]
+      },
+      "ct_5_run_mode" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "12171",
+        "tags" : [ ]
+      },
+      "ct_5_condensing_return_water_isolation_valve_mode" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "12240",
+        "tags" : [ ]
+      },
+      "ct_5_run_time_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "12234",
+        "tags" : [ ]
+      },
+      "ct_5_start_mode" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "12179",
+        "tags" : [ ]
+      },
+      "ct_5_lost_power_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "12170",
+        "tags" : [ ]
+      },
+      "ct_5_end_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "12173",
+        "tags" : [ ]
+      },
+      "ct_5_condensing_return_water_isolation_valve_percentage_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "12337",
+        "tags" : [ ]
+      },
+      "ct_5_pump_speed_mode" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "12177",
+        "tags" : [ ]
+      },
+      "ct_5_condensing_return_water_isolation_valve_percentage_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "12338",
+        "tags" : [ ]
+      },
+      "ct_5_condensing_return_water_isolation_valve_percentage_setpoint" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "12339",
+        "tags" : [ ]
+      },
+      "ct_5_speed_frequency_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "12233",
+        "tags" : [ ]
+      },
+      "ct_5_pump_speed_frequency_setpoint" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "12235",
+        "tags" : [ ]
+      },
+      "ct_5_simulation_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "12178",
+        "tags" : [ ]
+      },
+      "ct_5_reset_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "12176",
+        "tags" : [ ]
+      }
+    }
+  }
+}

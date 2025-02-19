@@ -1,0 +1,106 @@
+{
+  "timestamp" : "2024-12-03T10:06:12Z",
+  "version" : "1.5.2",
+  "cloud" : {
+    "resource_type" : "DEVICE"
+  },
+  "system" : {
+    "tags" : [ ],
+    "location" : {
+      "site" : "TW-NTC-TPKD"
+    },
+    "min_loglevel" : 300
+  },
+  "gateway" : {
+    "gateway_id" : "CGW-35"
+  },
+  "localnet" : {
+    "families" : {
+      "iot" : {
+        "addr" : "FCU-305"
+      }
+    }
+  },
+  "testing" : {
+    "nostate" : true,
+    "targets" : {
+      "applied" : {
+        "target_point" : "fcu_305_discharge_fan_run_command",
+        "target_value" : false
+      },
+      "invalid" : {
+        "target_point" : "fcu_305_discharge_fan_run_command",
+        "target_value" : [ ]
+      }
+    }
+  },
+  "features" : {
+    "system" : {
+      "stage" : "alpha"
+    },
+    "writeback" : {
+      "stage" : "alpha"
+    },
+    "pointset" : {
+      "stage" : "alpha"
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "fcu_305_discharge_fan_run_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "6090",
+        "tags" : [ ]
+      },
+      "fcu_305_run_mode" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "6093",
+        "tags" : [ ]
+      },
+      "fcu_305_return_air_temperature_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "6178",
+        "tags" : [ ]
+      },
+      "fcu_305_chilled_water_valve_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "6095",
+        "tags" : [ ]
+      },
+      "fcu_305_return_air_temperature_setpoint" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "6179",
+        "tags" : [ ]
+      },
+      "fcu_305_discharge_fan_lost_power_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "6092",
+        "tags" : [ ]
+      },
+      "fcu_305_schedule_run_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "6094",
+        "tags" : [ ]
+      },
+      "fcu_305_discharge_fan_run_status" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "6091",
+        "tags" : [ ]
+      },
+      "fcu_305_discharge_fan_speed_mode" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "6180",
+        "tags" : [ ]
+      }
+    }
+  }
+}

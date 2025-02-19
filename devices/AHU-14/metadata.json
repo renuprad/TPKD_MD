@@ -1,0 +1,238 @@
+{
+  "timestamp" : "2024-12-03T10:06:13Z",
+  "version" : "1.5.2",
+  "cloud" : {
+    "resource_type" : "DEVICE"
+  },
+  "system" : {
+    "tags" : [ ],
+    "location" : {
+      "site" : "TW-NTC-TPKD"
+    },
+    "min_loglevel" : 300
+  },
+  "gateway" : {
+    "gateway_id" : "CGW-149"
+  },
+  "localnet" : {
+    "families" : {
+      "iot" : {
+        "addr" : "AHU-14"
+      }
+    }
+  },
+  "testing" : {
+    "nostate" : true,
+    "targets" : {
+      "applied" : {
+        "target_point" : "ahu_14_discharge_air_flowrate_status",
+        "target_value" : true
+      },
+      "invalid" : {
+        "target_point" : "ahu_14_discharge_air_flowrate_status",
+        "target_value" : [ ]
+      }
+    }
+  },
+  "features" : {
+    "system" : {
+      "stage" : "alpha"
+    },
+    "writeback" : {
+      "stage" : "alpha"
+    },
+    "pointset" : {
+      "stage" : "alpha"
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "ahu_14_discharge_air_flowrate_status" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16504",
+        "tags" : [ ]
+      },
+      "ahu_14_discharge_fan_run_status" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16502",
+        "tags" : [ ]
+      },
+      "ahu_14_discharge_air_temperature_setpoint" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16714",
+        "tags" : [ ]
+      },
+      "ahu_14_chilled_water_flowrate_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16708",
+        "tags" : [ ]
+      },
+      "ahu_14_zone_air_co2_concentration_sensor_1" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16712",
+        "tags" : [ ]
+      },
+      "ahu_14_zone_air_co2_concentration_sensor_2" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16713",
+        "tags" : [ ]
+      },
+      "ahu_14_filter_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16506",
+        "tags" : [ ]
+      },
+      "ahu_14_outside_air_flowrate_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16707",
+        "tags" : [ ]
+      },
+      "ahu_14_discharge_air_damper_percentage_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16702",
+        "tags" : [ ]
+      },
+      "ahu_14_heater_run_command_3" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16496",
+        "tags" : [ ]
+      },
+      "ahu_14_run_mode" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16501",
+        "tags" : [ ]
+      },
+      "ahu_14_heater_run_status_1" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16510",
+        "tags" : [ ]
+      },
+      "ahu_14_outside_air_damper_percentage_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16711",
+        "tags" : [ ]
+      },
+      "ahu_14_zone_air_temperature_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16705",
+        "tags" : [ ]
+      },
+      "ahu_14_discharge_fan_speed_frequency_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16709",
+        "tags" : [ ]
+      },
+      "ahu_14_ultraviolet_lamp_run_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16500",
+        "tags" : [ ]
+      },
+      "ahu_14_heater_run_command_1" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16498",
+        "tags" : [ ]
+      },
+      "ahu_14_discharge_air_temperature_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16704",
+        "tags" : [ ]
+      },
+      "ahu_14_heater_run_command_2" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16497",
+        "tags" : [ ]
+      },
+      "ahu_14_zone_air_co2_concentration_setpoint" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16715",
+        "tags" : [ ]
+      },
+      "ahu_14_discharge_fan_run_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16499",
+        "tags" : [ ]
+      },
+      "ahu_14_zone_air_relative_humidity_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16706",
+        "tags" : [ ]
+      },
+      "ahu_14_chilled_water_valve_percentage_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16710",
+        "tags" : [ ]
+      },
+      "ahu_14_discharge_fan_speed_frequency_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16703",
+        "tags" : [ ]
+      },
+      "ahu_14_ultraviolet_lamp_run_status" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16507",
+        "tags" : [ ]
+      },
+      "ahu_14_chilled_water_valve_percentage_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16700",
+        "tags" : [ ]
+      },
+      "ahu_14_outside_air_damper_percentage_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16701",
+        "tags" : [ ]
+      },
+      "ahu_14_smoke_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16505",
+        "tags" : [ ]
+      },
+      "ahu_14_discharge_fan_lost_power_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16503",
+        "tags" : [ ]
+      },
+      "ahu_14_heater_run_status_3" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16508",
+        "tags" : [ ]
+      },
+      "ahu_14_heater_run_status_2" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16509",
+        "tags" : [ ]
+      }
+    }
+  }
+}

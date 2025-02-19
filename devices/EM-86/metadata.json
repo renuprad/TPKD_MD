@@ -1,0 +1,118 @@
+{
+  "timestamp" : "2024-12-03T10:06:12Z",
+  "version" : "1.5.2",
+  "cloud" : {
+    "resource_type" : "DEVICE"
+  },
+  "system" : {
+    "tags" : [ ],
+    "location" : {
+      "site" : "TW-NTC-TPKD"
+    },
+    "min_loglevel" : 300
+  },
+  "gateway" : {
+    "gateway_id" : "CGW-28"
+  },
+  "localnet" : {
+    "families" : {
+      "iot" : {
+        "addr" : "EM-86"
+      }
+    }
+  },
+  "testing" : {
+    "nostate" : true,
+    "targets" : {
+      "applied" : {
+        "target_point" : "em_86_phase1_line_current_sensor",
+        "target_value" : 67
+      },
+      "invalid" : {
+        "target_point" : "em_86_phase1_line_current_sensor",
+        "target_value" : [ ]
+      }
+    }
+  },
+  "features" : {
+    "system" : {
+      "stage" : "alpha"
+    },
+    "writeback" : {
+      "stage" : "alpha"
+    },
+    "pointset" : {
+      "stage" : "alpha"
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "em_86_phase1_line_current_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "5101",
+        "tags" : [ ]
+      },
+      "em_86_phase1_neutral_line_voltage_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "5104",
+        "tags" : [ ]
+      },
+      "em_86_phase3_line_current_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "5103",
+        "tags" : [ ]
+      },
+      "em_86_line_frequency_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "5111",
+        "tags" : [ ]
+      },
+      "em_86_powerfactor_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "5109",
+        "tags" : [ ]
+      },
+      "em_86_energy_accumulator" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "5108",
+        "tags" : [ ]
+      },
+      "em_86_reactive_power_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "5110",
+        "tags" : [ ]
+      },
+      "em_86_phase2_line_current_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "5102",
+        "tags" : [ ]
+      },
+      "em_86_power_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "5107",
+        "tags" : [ ]
+      },
+      "em_86_phase2_neutral_line_voltage_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "5105",
+        "tags" : [ ]
+      },
+      "em_86_phase3_neutral_line_voltage_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "5106",
+        "tags" : [ ]
+      }
+    }
+  }
+}

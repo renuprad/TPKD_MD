@@ -1,0 +1,106 @@
+{
+  "timestamp" : "2024-12-03T10:06:12Z",
+  "version" : "1.5.2",
+  "cloud" : {
+    "resource_type" : "DEVICE"
+  },
+  "system" : {
+    "tags" : [ ],
+    "location" : {
+      "site" : "TW-NTC-TPKD"
+    },
+    "min_loglevel" : 300
+  },
+  "gateway" : {
+    "gateway_id" : "CGW-20"
+  },
+  "localnet" : {
+    "families" : {
+      "iot" : {
+        "addr" : "FCU-161"
+      }
+    }
+  },
+  "testing" : {
+    "nostate" : true,
+    "targets" : {
+      "applied" : {
+        "target_point" : "fcu_161_return_air_temperature_sensor",
+        "target_value" : 57
+      },
+      "invalid" : {
+        "target_point" : "fcu_161_return_air_temperature_sensor",
+        "target_value" : [ ]
+      }
+    }
+  },
+  "features" : {
+    "system" : {
+      "stage" : "alpha"
+    },
+    "writeback" : {
+      "stage" : "alpha"
+    },
+    "pointset" : {
+      "stage" : "alpha"
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "fcu_161_return_air_temperature_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "2769",
+        "tags" : [ ]
+      },
+      "fcu_161_return_air_temperature_setpoint" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "2770",
+        "tags" : [ ]
+      },
+      "fcu_161_discharge_fan_lost_power_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "2720",
+        "tags" : [ ]
+      },
+      "fcu_161_discharge_fan_speed_mode" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "2771",
+        "tags" : [ ]
+      },
+      "fcu_161_discharge_fan_run_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "2718",
+        "tags" : [ ]
+      },
+      "fcu_161_run_mode" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "2721",
+        "tags" : [ ]
+      },
+      "fcu_161_chilled_water_valve_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "2723",
+        "tags" : [ ]
+      },
+      "fcu_161_discharge_fan_run_status" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "2719",
+        "tags" : [ ]
+      },
+      "fcu_161_schedule_run_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "2722",
+        "tags" : [ ]
+      }
+    }
+  }
+}

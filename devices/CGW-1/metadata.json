@@ -1,0 +1,204 @@
+{
+  "timestamp" : "2024-12-03T10:06:12Z",
+  "version" : "1.5.2",
+  "cloud" : {
+    "auth_type" : "RS256",
+    "resource_type" : "GATEWAY"
+  },
+  "system" : {
+    "tags" : [ ],
+    "location" : {
+      "site" : "TW-NTC-TPKD"
+    },
+    "hardware" : {
+      "make" : "RadixIoT",
+      "model" : "Mango"
+    },
+    "software" : {
+      "os" : "Linux 5.10.0-28-amd64 amd64",
+      "build" : "2024-10-30T16:17:45Z",
+      "firmware" : "5.3.0"
+    },
+    "min_loglevel" : 300
+  },
+  "gateway" : {
+    "proxy_ids" : [ "FCU-1", "FCU-2", "FCU-3", "FCU-4", "FCU-5", "FCU-6", "FCU-7", "FCU-8", "FCU-9", "FCU-714", "FCU-1045", "EM-1", "EM-2", "EM-3", "EM-4", "EM-8" ]
+  },
+  "discovery" : {
+    "families" : {
+      "vendor" : { },
+      "bacnet" : { },
+      "iot" : { }
+    }
+  },
+  "localnet" : {
+    "families" : {
+      "ether" : {
+        "addr" : "2C:58:B9:6C:7A:88"
+      },
+      "ipv4" : {
+        "addr" : "100.87.132.138"
+      },
+      "ipv6" : {
+        "addr" : "2A00:79E1:F002:1200:2E58:B9FF:FE6C:7A88"
+      },
+      "bacnet" : {
+        "addr" : "9999"
+      },
+      "iot" : {
+        "addr" : "CGW-1"
+      }
+    }
+  },
+  "testing" : {
+    "targets" : {
+      "applied" : {
+        "target_point" : "fcu_1_run_mode",
+        "target_value" : false
+      },
+      "failure" : {
+        "target_point" : "fcu_1_return_air_temperature_sensor",
+        "target_value" : 66
+      },
+      "invalid" : {
+        "target_point" : "fcu_1_return_air_temperature_sensor",
+        "target_value" : [ ]
+      }
+    }
+  },
+  "features" : {
+    "endpoint.config" : {
+      "stage" : "alpha"
+    },
+    "enumeration.families" : {
+      "stage" : "alpha"
+    },
+    "enumeration.features" : {
+      "stage" : "alpha"
+    },
+    "system.mode" : {
+      "stage" : "alpha"
+    },
+    "discovery.scan" : {
+      "stage" : "alpha"
+    },
+    "endpoint" : {
+      "stage" : "alpha"
+    },
+    "system" : {
+      "stage" : "alpha"
+    },
+    "writeback" : {
+      "stage" : "alpha"
+    },
+    "discovery" : {
+      "stage" : "alpha"
+    },
+    "enumeration.pointset" : {
+      "stage" : "alpha"
+    },
+    "pointset" : {
+      "stage" : "alpha"
+    },
+    "enumeration" : {
+      "stage" : "alpha"
+    },
+    "gateway" : {
+      "stage" : "alpha"
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "fcu_1_run_mode" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "29",
+        "tags" : [ ]
+      },
+      "fcu_1_discharge_fan_speed_mode" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "94",
+        "tags" : [ ]
+      },
+      "fcu_1045_discharge_fan_speed_mode" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "125",
+        "tags" : [ ]
+      },
+      "fcu_1045_return_air_temperature_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "123",
+        "tags" : [ ]
+      },
+      "fcu_1_return_air_temperature_setpoint" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "93",
+        "tags" : [ ]
+      },
+      "fcu_1_discharge_fan_run_status" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "27",
+        "tags" : [ ]
+      },
+      "fcu_1_chilled_water_valve_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "31",
+        "tags" : [ ]
+      },
+      "h_o_l_d_i_n_g_r_e_g_i_s_t_e_r_0" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "232",
+        "tags" : [ ]
+      },
+      "fcu_1_schedule_run_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "30",
+        "tags" : [ ]
+      },
+      "em_8_phase2_line_current_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "127",
+        "tags" : [ ]
+      },
+      "fcu_1_return_air_temperature_sensor" : {
+        "units" : "",
+        "writable" : false,
+        "ref" : "92",
+        "tags" : [ ]
+      },
+      "fcu_1045_return_air_temperature_setpoint" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "124",
+        "tags" : [ ]
+      },
+      "em_8_phase1_line_current_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "126",
+        "tags" : [ ]
+      },
+      "fcu_1_discharge_fan_lost_power_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "28",
+        "tags" : [ ]
+      },
+      "fcu_1_discharge_fan_run_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "26",
+        "tags" : [ ]
+      }
+    }
+  }
+}

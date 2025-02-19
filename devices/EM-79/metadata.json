@@ -1,0 +1,118 @@
+{
+  "timestamp" : "2024-12-03T10:06:12Z",
+  "version" : "1.5.2",
+  "cloud" : {
+    "resource_type" : "DEVICE"
+  },
+  "system" : {
+    "tags" : [ ],
+    "location" : {
+      "site" : "TW-NTC-TPKD"
+    },
+    "min_loglevel" : 300
+  },
+  "gateway" : {
+    "gateway_id" : "CGW-23"
+  },
+  "localnet" : {
+    "families" : {
+      "iot" : {
+        "addr" : "EM-79"
+      }
+    }
+  },
+  "testing" : {
+    "nostate" : true,
+    "targets" : {
+      "applied" : {
+        "target_point" : "em_79_phase2_line_current_sensor",
+        "target_value" : 66
+      },
+      "invalid" : {
+        "target_point" : "em_79_phase2_line_current_sensor",
+        "target_value" : [ ]
+      }
+    }
+  },
+  "features" : {
+    "system" : {
+      "stage" : "alpha"
+    },
+    "writeback" : {
+      "stage" : "alpha"
+    },
+    "pointset" : {
+      "stage" : "alpha"
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "em_79_phase2_line_current_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "4084",
+        "tags" : [ ]
+      },
+      "em_79_line_frequency_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "4093",
+        "tags" : [ ]
+      },
+      "em_79_phase1_line_current_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "4083",
+        "tags" : [ ]
+      },
+      "em_79_phase2_neutral_line_voltage_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "4087",
+        "tags" : [ ]
+      },
+      "em_79_phase3_line_current_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "4085",
+        "tags" : [ ]
+      },
+      "em_79_energy_accumulator" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "4090",
+        "tags" : [ ]
+      },
+      "em_79_phase3_neutral_line_voltage_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "4088",
+        "tags" : [ ]
+      },
+      "em_79_power_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "4089",
+        "tags" : [ ]
+      },
+      "em_79_reactive_power_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "4092",
+        "tags" : [ ]
+      },
+      "em_79_powerfactor_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "4091",
+        "tags" : [ ]
+      },
+      "em_79_phase1_neutral_line_voltage_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "4086",
+        "tags" : [ ]
+      }
+    }
+  }
+}

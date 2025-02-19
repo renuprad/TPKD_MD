@@ -1,0 +1,100 @@
+{
+  "timestamp" : "2024-12-03T10:06:12Z",
+  "version" : "1.5.2",
+  "cloud" : {
+    "auth_type" : "RS256",
+    "resource_type" : "GATEWAY"
+  },
+  "system" : {
+    "tags" : [ ],
+    "location" : {
+      "site" : "TW-NTC-TPKD"
+    },
+    "hardware" : {
+      "make" : "RadixIoT",
+      "model" : "Mango"
+    },
+    "software" : {
+      "os" : "Linux 5.10.0-28-amd64 amd64",
+      "build" : "2024-10-30T16:17:45Z",
+      "firmware" : "5.3.0"
+    },
+    "min_loglevel" : 300
+  },
+  "gateway" : {
+    "proxy_ids" : [ "FCU-330", "FCU-331", "FCU-332", "FCU-333", "FCU-334", "FCU-335", "FCU-336", "FCU-337", "FCU-338", "FCU-824", "EM-228", "EM-102", "EM-103", "EM-104", "EM-105", "CDS-112", "CDS-113", "CDS-114", "CDS-115", "CDS-116" ]
+  },
+  "discovery" : {
+    "families" : {
+      "vendor" : { },
+      "bacnet" : { },
+      "iot" : { }
+    }
+  },
+  "localnet" : {
+    "families" : {
+      "ether" : {
+        "addr" : "2C:58:B9:6C:7A:88"
+      },
+      "ipv4" : {
+        "addr" : "100.87.132.138"
+      },
+      "ipv6" : {
+        "addr" : "2A00:79E1:F002:1200:2E58:B9FF:FE6C:7A88"
+      },
+      "bacnet" : {
+        "addr" : "9999"
+      },
+      "iot" : {
+        "addr" : "CGW-38"
+      }
+    }
+  },
+  "testing" : {
+    "targets" : { }
+  },
+  "features" : {
+    "endpoint.config" : {
+      "stage" : "alpha"
+    },
+    "enumeration.families" : {
+      "stage" : "alpha"
+    },
+    "enumeration.features" : {
+      "stage" : "alpha"
+    },
+    "system.mode" : {
+      "stage" : "alpha"
+    },
+    "discovery.scan" : {
+      "stage" : "alpha"
+    },
+    "endpoint" : {
+      "stage" : "alpha"
+    },
+    "system" : {
+      "stage" : "alpha"
+    },
+    "writeback" : {
+      "stage" : "alpha"
+    },
+    "discovery" : {
+      "stage" : "alpha"
+    },
+    "enumeration.pointset" : {
+      "stage" : "alpha"
+    },
+    "pointset" : {
+      "stage" : "alpha"
+    },
+    "enumeration" : {
+      "stage" : "alpha"
+    },
+    "gateway" : {
+      "stage" : "alpha"
+    }
+  },
+  "pointset" : {
+    "points" : { }
+  }
+}

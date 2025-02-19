@@ -1,0 +1,100 @@
+{
+  "timestamp" : "2024-12-03T10:06:12Z",
+  "version" : "1.5.2",
+  "cloud" : {
+    "resource_type" : "DEVICE"
+  },
+  "system" : {
+    "tags" : [ ],
+    "location" : {
+      "site" : "TW-NTC-TPKD"
+    },
+    "min_loglevel" : 300
+  },
+  "gateway" : {
+    "gateway_id" : "CGW-44"
+  },
+  "localnet" : {
+    "families" : {
+      "iot" : {
+        "addr" : "EF-29"
+      }
+    }
+  },
+  "testing" : {
+    "nostate" : true,
+    "targets" : {
+      "applied" : {
+        "target_point" : "ef_29_run_command",
+        "target_value" : true
+      },
+      "invalid" : {
+        "target_point" : "ef_29_run_command",
+        "target_value" : [ ]
+      }
+    }
+  },
+  "features" : {
+    "system" : {
+      "stage" : "alpha"
+    },
+    "writeback" : {
+      "stage" : "alpha"
+    },
+    "pointset" : {
+      "stage" : "alpha"
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "ef_29_run_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "7366",
+        "tags" : [ ]
+      },
+      "ef_29_run_status" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "7367",
+        "tags" : [ ]
+      },
+      "ef_29_control_status" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "7371",
+        "tags" : [ ]
+      },
+      "ef_29_speed_frequency_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "7460",
+        "tags" : [ ]
+      },
+      "ef_29_speed_frequency_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "7461",
+        "tags" : [ ]
+      },
+      "ef_29_lost_power_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "7368",
+        "tags" : [ ]
+      },
+      "ef_29_schedule_run_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "7370",
+        "tags" : [ ]
+      },
+      "ef_29_run_mode" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "7369",
+        "tags" : [ ]
+      }
+    }
+  }
+}

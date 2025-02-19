@@ -1,0 +1,112 @@
+{
+  "timestamp" : "2024-12-03T10:06:12Z",
+  "version" : "1.5.2",
+  "cloud" : {
+    "resource_type" : "DEVICE"
+  },
+  "system" : {
+    "tags" : [ ],
+    "location" : {
+      "site" : "TW-NTC-TPKD"
+    },
+    "min_loglevel" : 300
+  },
+  "gateway" : {
+    "gateway_id" : "CGW-38"
+  },
+  "localnet" : {
+    "families" : {
+      "iot" : {
+        "addr" : "FCU-337"
+      }
+    }
+  },
+  "testing" : {
+    "nostate" : true,
+    "targets" : {
+      "applied" : {
+        "target_point" : "fcu_337_run_mode",
+        "target_value" : false
+      },
+      "invalid" : {
+        "target_point" : "fcu_337_run_mode",
+        "target_value" : [ ]
+      }
+    }
+  },
+  "features" : {
+    "system" : {
+      "stage" : "alpha"
+    },
+    "writeback" : {
+      "stage" : "alpha"
+    },
+    "pointset" : {
+      "stage" : "alpha"
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "fcu_337_run_mode" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "6579",
+        "tags" : [ ]
+      },
+      "fcu_337_discharge_fan_run_status" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "6577",
+        "tags" : [ ]
+      },
+      "fcu_337_discharge_fan_speed_percentage_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "6622",
+        "tags" : [ ]
+      },
+      "fcu_337_return_air_temperature_setpoint" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "6621",
+        "tags" : [ ]
+      },
+      "fcu_337_discharge_fan_lost_power_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "6578",
+        "tags" : [ ]
+      },
+      "fcu_337_discharge_fan_run_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "6576",
+        "tags" : [ ]
+      },
+      "fcu_337_schedule_run_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "6580",
+        "tags" : [ ]
+      },
+      "fcu_337_return_air_temperature_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "6620",
+        "tags" : [ ]
+      },
+      "fcu_337_chilled_water_valve_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "6581",
+        "tags" : [ ]
+      },
+      "fcu_337_discharge_fan_speed_mode" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "6623",
+        "tags" : [ ]
+      }
+    }
+  }
+}

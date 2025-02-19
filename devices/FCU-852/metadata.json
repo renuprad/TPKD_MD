@@ -1,0 +1,106 @@
+{
+  "timestamp" : "2024-12-03T10:06:13Z",
+  "version" : "1.5.2",
+  "cloud" : {
+    "resource_type" : "DEVICE"
+  },
+  "system" : {
+    "tags" : [ ],
+    "location" : {
+      "site" : "TW-NTC-TPKD"
+    },
+    "min_loglevel" : 300
+  },
+  "gateway" : {
+    "gateway_id" : "CGW-99"
+  },
+  "localnet" : {
+    "families" : {
+      "iot" : {
+        "addr" : "FCU-852"
+      }
+    }
+  },
+  "testing" : {
+    "nostate" : true,
+    "targets" : {
+      "applied" : {
+        "target_point" : "fcu_852_return_air_temperature_setpoint",
+        "target_value" : 76
+      },
+      "invalid" : {
+        "target_point" : "fcu_852_return_air_temperature_setpoint",
+        "target_value" : [ ]
+      }
+    }
+  },
+  "features" : {
+    "system" : {
+      "stage" : "alpha"
+    },
+    "writeback" : {
+      "stage" : "alpha"
+    },
+    "pointset" : {
+      "stage" : "alpha"
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "fcu_852_return_air_temperature_setpoint" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "14003",
+        "tags" : [ ]
+      },
+      "fcu_852_run_mode" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "13954",
+        "tags" : [ ]
+      },
+      "fcu_852_discharge_fan_speed_mode" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "14004",
+        "tags" : [ ]
+      },
+      "fcu_852_return_air_temperature_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "14002",
+        "tags" : [ ]
+      },
+      "fcu_852_discharge_fan_run_status" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "13952",
+        "tags" : [ ]
+      },
+      "fcu_852_schedule_run_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "13955",
+        "tags" : [ ]
+      },
+      "fcu_852_discharge_fan_lost_power_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "13953",
+        "tags" : [ ]
+      },
+      "fcu_852_chilled_water_valve_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "13956",
+        "tags" : [ ]
+      },
+      "fcu_852_discharge_fan_run_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "13951",
+        "tags" : [ ]
+      }
+    }
+  }
+}

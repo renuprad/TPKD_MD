@@ -1,0 +1,122 @@
+{
+  "cloud" : {
+    "auth_type" : "RS256"
+  },
+  "system" : {
+    "location" : {
+      "site" : "TW-NTC-TPKD",
+      "section" : "NTC-TPKD",
+      "position" : {
+        "x" : 0,
+        "y" : 0
+      }
+    },
+    "physical_tag" : {
+      "asset" : {
+        "site" : "TW-NTC-TPKD",
+        "name" : "AHU-35",
+        "guid" : "uuid://473c1ffa-4b2b-409d-a961-c9151f706ec1"
+      }
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "chilled_water_flowrate_sensor" : {
+        "units" : "Cubic-meters-per-minute"
+      },
+      "chilled_water_valve_percentage_command" : {
+        "units" : "Percent"
+      },
+      "chilled_water_valve_percentage_sensor" : {
+        "units" : "Percent"
+      },
+      "discharge_air_damper_percentage_command" : {
+        "units" : "Percent"
+      },
+      "discharge_air_flowrate_status" : {
+        "units" : "No-units"
+      },
+      "discharge_air_temperature_sensor" : {
+        "units" : "Degrees-celsius"
+      },
+      "discharge_air_temperature_setpoint" : {
+        "units" : "Degrees-celsius"
+      },
+      "discharge_fan_lost_power_alarm" : {
+        "units" : "No-units"
+      },
+      "discharge_fan_run_command" : {
+        "units" : "No-units"
+      },
+      "discharge_fan_run_status" : {
+        "units" : "No-units"
+      },
+      "discharge_fan_speed_frequency_sensor" : {
+        "units" : "Hertz"
+      },
+      "discharge_fan_speed_frequency_command" : {
+        "units" : "Hertz"
+      },
+      "filter_alarm" : {
+        "units" : "No-units"
+      },
+      "heater_run_command_1" : {
+        "units" : "No-units"
+      },
+      "heater_run_command_2" : {
+        "units" : "No-units"
+      },
+      "heater_run_command_3" : {
+        "units" : "No-units"
+      },
+      "heater_run_status_1" : {
+        "units" : "No-units"
+      },
+      "heater_run_status_2" : {
+        "units" : "No-units"
+      },
+      "heater_run_status_3" : {
+        "units" : "No-units"
+      },
+      "outside_air_damper_percentage_command" : {
+        "units" : "Percent"
+      },
+      "outside_air_damper_percentage_sensor" : {
+        "units" : "Percent"
+      },
+      "outside_air_flowrate_sensor" : {
+        "units" : "Cubic-feet-per-minute"
+      },
+      "run_mode" : {
+        "units" : "No-units"
+      },
+      "smoke_alarm" : {
+        "units" : "No-units"
+      },
+      "ultraviolet_lamp_run_command" : {
+        "units" : "No-units"
+      },
+      "ultraviolet_lamp_run_status" : {
+        "units" : "No-units"
+      },
+      "zone_air_co2_concentration_sensor_1" : {
+        "units" : "Parts-per-million"
+      },
+      "zone_air_co2_concentration_sensor_2" : {
+        "units" : "Parts-per-million"
+      },
+      "zone_air_co2_concentration_setpoint" : {
+        "units" : "Parts-per-million"
+      },
+      "zone_air_relative_humidity_sensor" : {
+        "units" : "Percent-relative-humidity"
+      },
+      "zone_air_temperature_sensor" : {
+        "units" : "Degrees-celsius"
+      }
+    }
+  },
+  "version" : 1,
+  "hash" : "58d9d336",
+  "timestamp" : "2021-10-15T11:10:30.440541300Z"
+}

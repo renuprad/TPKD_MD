@@ -1,0 +1,118 @@
+{
+  "timestamp" : "2024-12-03T10:06:12Z",
+  "version" : "1.5.2",
+  "cloud" : {
+    "resource_type" : "DEVICE"
+  },
+  "system" : {
+    "tags" : [ ],
+    "location" : {
+      "site" : "TW-NTC-TPKD"
+    },
+    "min_loglevel" : 300
+  },
+  "gateway" : {
+    "gateway_id" : "CGW-47"
+  },
+  "localnet" : {
+    "families" : {
+      "iot" : {
+        "addr" : "EM-129"
+      }
+    }
+  },
+  "testing" : {
+    "nostate" : true,
+    "targets" : {
+      "applied" : {
+        "target_point" : "em_129_power_sensor",
+        "target_value" : 97
+      },
+      "invalid" : {
+        "target_point" : "em_129_power_sensor",
+        "target_value" : [ ]
+      }
+    }
+  },
+  "features" : {
+    "system" : {
+      "stage" : "alpha"
+    },
+    "writeback" : {
+      "stage" : "alpha"
+    },
+    "pointset" : {
+      "stage" : "alpha"
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "em_129_power_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "7790",
+        "tags" : [ ]
+      },
+      "em_129_energy_accumulator" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "7791",
+        "tags" : [ ]
+      },
+      "em_129_phase3_line_current_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "7786",
+        "tags" : [ ]
+      },
+      "em_129_phase3_neutral_line_voltage_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "7789",
+        "tags" : [ ]
+      },
+      "em_129_line_frequency_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "7794",
+        "tags" : [ ]
+      },
+      "em_129_powerfactor_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "7792",
+        "tags" : [ ]
+      },
+      "em_129_phase2_line_current_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "7785",
+        "tags" : [ ]
+      },
+      "em_129_reactive_power_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "7793",
+        "tags" : [ ]
+      },
+      "em_129_phase1_neutral_line_voltage_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "7787",
+        "tags" : [ ]
+      },
+      "em_129_phase2_neutral_line_voltage_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "7788",
+        "tags" : [ ]
+      },
+      "em_129_phase1_line_current_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "7784",
+        "tags" : [ ]
+      }
+    }
+  }
+}

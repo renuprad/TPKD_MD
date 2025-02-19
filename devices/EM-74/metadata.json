@@ -1,0 +1,118 @@
+{
+  "timestamp" : "2024-12-03T10:06:13Z",
+  "version" : "1.5.2",
+  "cloud" : {
+    "resource_type" : "DEVICE"
+  },
+  "system" : {
+    "tags" : [ ],
+    "location" : {
+      "site" : "TW-NTC-TPKD"
+    },
+    "min_loglevel" : 300
+  },
+  "gateway" : {
+    "gateway_id" : "CGW-96"
+  },
+  "localnet" : {
+    "families" : {
+      "iot" : {
+        "addr" : "EM-74"
+      }
+    }
+  },
+  "testing" : {
+    "nostate" : true,
+    "targets" : {
+      "applied" : {
+        "target_point" : "em_74_power_sensor",
+        "target_value" : 80
+      },
+      "invalid" : {
+        "target_point" : "em_74_power_sensor",
+        "target_value" : [ ]
+      }
+    }
+  },
+  "features" : {
+    "system" : {
+      "stage" : "alpha"
+    },
+    "writeback" : {
+      "stage" : "alpha"
+    },
+    "pointset" : {
+      "stage" : "alpha"
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "em_74_power_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "13697",
+        "tags" : [ ]
+      },
+      "em_74_phase3_line_current_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "13693",
+        "tags" : [ ]
+      },
+      "em_74_line_frequency_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "13701",
+        "tags" : [ ]
+      },
+      "em_74_phase1_line_current_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "13691",
+        "tags" : [ ]
+      },
+      "em_74_phase1_neutral_line_voltage_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "13694",
+        "tags" : [ ]
+      },
+      "em_74_energy_accumulator" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "13698",
+        "tags" : [ ]
+      },
+      "em_74_phase2_neutral_line_voltage_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "13695",
+        "tags" : [ ]
+      },
+      "em_74_phase2_line_current_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "13692",
+        "tags" : [ ]
+      },
+      "em_74_phase3_neutral_line_voltage_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "13696",
+        "tags" : [ ]
+      },
+      "em_74_reactive_power_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "13700",
+        "tags" : [ ]
+      },
+      "em_74_powerfactor_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "13699",
+        "tags" : [ ]
+      }
+    }
+  }
+}

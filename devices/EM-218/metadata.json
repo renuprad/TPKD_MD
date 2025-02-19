@@ -1,0 +1,118 @@
+{
+  "timestamp" : "2024-12-03T10:06:13Z",
+  "version" : "1.5.2",
+  "cloud" : {
+    "resource_type" : "DEVICE"
+  },
+  "system" : {
+    "tags" : [ ],
+    "location" : {
+      "site" : "TW-NTC-TPKD"
+    },
+    "min_loglevel" : 300
+  },
+  "gateway" : {
+    "gateway_id" : "CGW-114"
+  },
+  "localnet" : {
+    "families" : {
+      "iot" : {
+        "addr" : "EM-218"
+      }
+    }
+  },
+  "testing" : {
+    "nostate" : true,
+    "targets" : {
+      "applied" : {
+        "target_point" : "em_218_phase2_neutral_line_voltage_sensor",
+        "target_value" : 95
+      },
+      "invalid" : {
+        "target_point" : "em_218_phase2_neutral_line_voltage_sensor",
+        "target_value" : [ ]
+      }
+    }
+  },
+  "features" : {
+    "system" : {
+      "stage" : "alpha"
+    },
+    "writeback" : {
+      "stage" : "alpha"
+    },
+    "pointset" : {
+      "stage" : "alpha"
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "em_218_phase2_neutral_line_voltage_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15134",
+        "tags" : [ ]
+      },
+      "em_218_powerfactor_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15138",
+        "tags" : [ ]
+      },
+      "em_218_phase1_neutral_line_voltage_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15133",
+        "tags" : [ ]
+      },
+      "em_218_phase2_line_current_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15131",
+        "tags" : [ ]
+      },
+      "em_218_phase1_line_current_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15130",
+        "tags" : [ ]
+      },
+      "em_218_phase3_neutral_line_voltage_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15135",
+        "tags" : [ ]
+      },
+      "em_218_phase3_line_current_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15132",
+        "tags" : [ ]
+      },
+      "em_218_energy_accumulator" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15137",
+        "tags" : [ ]
+      },
+      "em_218_power_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15136",
+        "tags" : [ ]
+      },
+      "em_218_line_frequency_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15140",
+        "tags" : [ ]
+      },
+      "em_218_reactive_power_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15139",
+        "tags" : [ ]
+      }
+    }
+  }
+}

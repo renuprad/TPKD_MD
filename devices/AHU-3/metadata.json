@@ -1,0 +1,160 @@
+{
+  "timestamp" : "2024-12-03T10:06:12Z",
+  "version" : "1.5.2",
+  "cloud" : {
+    "resource_type" : "DEVICE"
+  },
+  "system" : {
+    "tags" : [ ],
+    "location" : {
+      "site" : "TW-NTC-TPKD"
+    },
+    "min_loglevel" : 300
+  },
+  "gateway" : {
+    "gateway_id" : "CGW-6"
+  },
+  "localnet" : {
+    "families" : {
+      "iot" : {
+        "addr" : "AHU-3"
+      }
+    }
+  },
+  "testing" : {
+    "nostate" : true,
+    "targets" : {
+      "applied" : {
+        "target_point" : "ahu_3_discharge_fan_run_status",
+        "target_value" : true
+      },
+      "invalid" : {
+        "target_point" : "ahu_3_discharge_fan_run_status",
+        "target_value" : [ ]
+      }
+    }
+  },
+  "features" : {
+    "system" : {
+      "stage" : "alpha"
+    },
+    "writeback" : {
+      "stage" : "alpha"
+    },
+    "pointset" : {
+      "stage" : "alpha"
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "ahu_3_discharge_fan_run_status" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "1170",
+        "tags" : [ ]
+      },
+      "ahu_3_filter_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "1173",
+        "tags" : [ ]
+      },
+      "ahu_3_discharge_fan_speed_frequency_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "1243",
+        "tags" : [ ]
+      },
+      "ahu_3_leaving_cooling_coil_temperature_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "1250",
+        "tags" : [ ]
+      },
+      "ahu_3_smoke_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "1175",
+        "tags" : [ ]
+      },
+      "ahu_3_discharge_air_flowrate_status" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "1174",
+        "tags" : [ ]
+      },
+      "ahu_3_chilled_water_valve_percentage_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "1245",
+        "tags" : [ ]
+      },
+      "ahu_3_discharge_fan_run_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "1169",
+        "tags" : [ ]
+      },
+      "ahu_3_chilled_water_valve_failed_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "1177",
+        "tags" : [ ]
+      },
+      "ahu_3_run_mode" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "1172",
+        "tags" : [ ]
+      },
+      "ahu_3_control_status" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "1178",
+        "tags" : [ ]
+      },
+      "ahu_3_discharge_fan_speed_frequency_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "1244",
+        "tags" : [ ]
+      },
+      "ahu_3_discharge_air_temperature_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "1247",
+        "tags" : [ ]
+      },
+      "ahu_3_lost_power_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "1171",
+        "tags" : [ ]
+      },
+      "ahu_3_return_air_temperature_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "1248",
+        "tags" : [ ]
+      },
+      "ahu_3_chilled_water_valve_percentage_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "1246",
+        "tags" : [ ]
+      },
+      "ahu_3_entering_cooling_coil_temperature_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "1249",
+        "tags" : [ ]
+      },
+      "ahu_3_schedule_run_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "1176",
+        "tags" : [ ]
+      }
+    }
+  }
+}

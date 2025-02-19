@@ -1,0 +1,358 @@
+{
+  "timestamp" : "2024-12-03T10:06:13Z",
+  "version" : "1.5.2",
+  "cloud" : {
+    "resource_type" : "DEVICE"
+  },
+  "system" : {
+    "tags" : [ ],
+    "location" : {
+      "site" : "TW-NTC-TPKD"
+    },
+    "min_loglevel" : 300
+  },
+  "gateway" : {
+    "gateway_id" : "CGW-133"
+  },
+  "localnet" : {
+    "families" : {
+      "iot" : {
+        "addr" : "CT-3"
+      }
+    }
+  },
+  "testing" : {
+    "nostate" : true,
+    "targets" : {
+      "applied" : {
+        "target_point" : "ct_3_reset_alarm",
+        "target_value" : false
+      },
+      "invalid" : {
+        "target_point" : "ct_3_reset_alarm",
+        "target_value" : [ ]
+      }
+    }
+  },
+  "features" : {
+    "system" : {
+      "stage" : "alpha"
+    },
+    "writeback" : {
+      "stage" : "alpha"
+    },
+    "pointset" : {
+      "stage" : "alpha"
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "ct_3_reset_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16166",
+        "tags" : [ ]
+      },
+      "ct_3_start_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16213",
+        "tags" : [ ]
+      },
+      "ct_3_max_inverter_current_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16309",
+        "tags" : [ ]
+      },
+      "ct_3_condensing_supply_water_isolation_simulation_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16155",
+        "tags" : [ ]
+      },
+      "ct_3_control_status" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16214",
+        "tags" : [ ]
+      },
+      "ct_3_run_time_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16258",
+        "tags" : [ ]
+      },
+      "ct_3_start_mode" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16165",
+        "tags" : [ ]
+      },
+      "ct_3_speed_frequency_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16256",
+        "tags" : [ ]
+      },
+      "ct_3_condensing_supply_water_isolation_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16156",
+        "tags" : [ ]
+      },
+      "ct_3_condensing_supply_water_isolation_open_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16132",
+        "tags" : [ ]
+      },
+      "ct_3_electric_inverter_percentage_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16308",
+        "tags" : [ ]
+      },
+      "ct_3_run_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16202",
+        "tags" : [ ]
+      },
+      "ct_3_average_line_current_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16299",
+        "tags" : [ ]
+      },
+      "ct_3_condensing_return_water_isolation_valve_mode" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16217",
+        "tags" : [ ]
+      },
+      "ct_3_condensing_supply_water_isolation_valve_open_status" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16206",
+        "tags" : [ ]
+      },
+      "ct_3_condensing_return_water_isolation_open_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16128",
+        "tags" : [ ]
+      },
+      "ct_3_end_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16212",
+        "tags" : [ ]
+      },
+      "ct_3_fin_temperature_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16306",
+        "tags" : [ ]
+      },
+      "ct_3_condensing_supply_water_isolation_control_status" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16130",
+        "tags" : [ ]
+      },
+      "ct_3_motor_energy_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16300",
+        "tags" : [ ]
+      },
+      "ct_3_lost_power_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16204",
+        "tags" : [ ]
+      },
+      "ct_3_condensing_return_water_isolation_control_status" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16126",
+        "tags" : [ ]
+      },
+      "ct_3_pump_speed_mode" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16216",
+        "tags" : [ ]
+      },
+      "ct_3_average_line_neutral_voltage_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16298",
+        "tags" : [ ]
+      },
+      "ct_3_heat_inverter_percentage_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16307",
+        "tags" : [ ]
+      },
+      "ct_3_simulation_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16164",
+        "tags" : [ ]
+      },
+      "ct_3_run_mode" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16205",
+        "tags" : [ ]
+      },
+      "ct_3_condensing_return_water_isolation_reset_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16129",
+        "tags" : [ ]
+      },
+      "ct_3_pump_speed_frequency_setpoint" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16259",
+        "tags" : [ ]
+      },
+      "ct_3_condensing_return_water_isolation_valve_closed_status" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16209",
+        "tags" : [ ]
+      },
+      "ct_3_motor_frequency_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16301",
+        "tags" : [ ]
+      },
+      "ct_3_condensing_return_water_isolation_valve_open_status" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16208",
+        "tags" : [ ]
+      },
+      "ct_3_condensing_supply_water_isolation_valve_command_1" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16210",
+        "tags" : [ ]
+      },
+      "ct_3_condensing_supply_water_isolation_valve_command_2" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16240",
+        "tags" : [ ]
+      },
+      "ct_3_fan_voltage_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16303",
+        "tags" : [ ]
+      },
+      "ct_3_condensing_supply_water_isolation_valve_closed_status" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16207",
+        "tags" : [ ]
+      },
+      "ct_3_condensing_return_water_isolation_simulation_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16150",
+        "tags" : [ ]
+      },
+      "ct_3_condensing_supply_water_isolation_closed_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16131",
+        "tags" : [ ]
+      },
+      "ct_3_condensing_return_water_isolation_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16151",
+        "tags" : [ ]
+      },
+      "ct_3_reset_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16215",
+        "tags" : [ ]
+      },
+      "ct_3_power_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16297",
+        "tags" : [ ]
+      },
+      "ct_3_condensing_return_water_isolation_valve_command_2" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16239",
+        "tags" : [ ]
+      },
+      "ct_3_condensing_supply_water_isolation_reset_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16133",
+        "tags" : [ ]
+      },
+      "ct_3_run_status" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16203",
+        "tags" : [ ]
+      },
+      "ct_3_speed_frequency_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16257",
+        "tags" : [ ]
+      },
+      "ct_3_condensing_return_water_isolation_valve_command_1" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16211",
+        "tags" : [ ]
+      },
+      "ct_3_heat_percentage_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16302",
+        "tags" : [ ]
+      },
+      "ct_3_condensing_supply_water_isolation_valve_mode" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16245",
+        "tags" : [ ]
+      },
+      "ct_3_break_time_command_2" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16305",
+        "tags" : [ ]
+      },
+      "ct_3_condensing_return_water_isolation_closed_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16127",
+        "tags" : [ ]
+      },
+      "ct_3_break_time_command_1" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16304",
+        "tags" : [ ]
+      }
+    }
+  }
+}

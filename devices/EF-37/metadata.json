@@ -1,0 +1,94 @@
+{
+  "timestamp" : "2024-12-03T10:06:13Z",
+  "version" : "1.5.2",
+  "cloud" : {
+    "resource_type" : "DEVICE"
+  },
+  "system" : {
+    "tags" : [ ],
+    "location" : {
+      "site" : "TW-NTC-TPKD"
+    },
+    "min_loglevel" : 300
+  },
+  "gateway" : {
+    "gateway_id" : "CGW-72"
+  },
+  "localnet" : {
+    "families" : {
+      "iot" : {
+        "addr" : "EF-37"
+      }
+    }
+  },
+  "testing" : {
+    "nostate" : true,
+    "targets" : {
+      "applied" : {
+        "target_point" : "ef_37_control_status",
+        "target_value" : false
+      },
+      "invalid" : {
+        "target_point" : "ef_37_control_status",
+        "target_value" : [ ]
+      }
+    }
+  },
+  "features" : {
+    "system" : {
+      "stage" : "alpha"
+    },
+    "writeback" : {
+      "stage" : "alpha"
+    },
+    "pointset" : {
+      "stage" : "alpha"
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "ef_37_control_status" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "11050",
+        "tags" : [ ]
+      },
+      "ef_37_speed_frequency_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "11103",
+        "tags" : [ ]
+      },
+      "ef_37_run_status" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "11047",
+        "tags" : [ ]
+      },
+      "ef_37_run_mode" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "11049",
+        "tags" : [ ]
+      },
+      "ef_37_run_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "11046",
+        "tags" : [ ]
+      },
+      "ef_37_lost_power_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "11048",
+        "tags" : [ ]
+      },
+      "ef_37_speed_frequency_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "11102",
+        "tags" : [ ]
+      }
+    }
+  }
+}

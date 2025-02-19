@@ -1,0 +1,284 @@
+{
+  "timestamp" : "2024-12-03T10:06:12Z",
+  "version" : "1.5.2",
+  "cloud" : {
+    "auth_type" : "RS256",
+    "resource_type" : "GATEWAY"
+  },
+  "system" : {
+    "tags" : [ ],
+    "location" : {
+      "site" : "TW-NTC-TPKD"
+    },
+    "hardware" : {
+      "make" : "RadixIoT",
+      "model" : "Mango"
+    },
+    "software" : {
+      "os" : "Linux 5.10.0-28-amd64 amd64",
+      "build" : "2024-10-30T16:17:45Z",
+      "firmware" : "5.3.0"
+    },
+    "min_loglevel" : 300
+  },
+  "gateway" : {
+    "proxy_ids" : [ "FCU-229", "FCU-230", "FCU-231", "FCU-232", "FCU-233", "FCU-234", "FCU-235", "FCU-236", "FCU-237", "FCU-238", "FCU-239", "FCU-240", "FCU-241", "FCU-242", "FCU-776", "FCU-777" ]
+  },
+  "discovery" : {
+    "families" : {
+      "vendor" : { },
+      "bacnet" : { },
+      "iot" : { }
+    }
+  },
+  "localnet" : {
+    "families" : {
+      "ether" : {
+        "addr" : "2C:58:B9:6C:7A:88"
+      },
+      "ipv4" : {
+        "addr" : "100.87.132.138"
+      },
+      "ipv6" : {
+        "addr" : "2A00:79E1:F002:1200:2E58:B9FF:FE6C:7A88"
+      },
+      "bacnet" : {
+        "addr" : "9999"
+      },
+      "iot" : {
+        "addr" : "CGW-27"
+      }
+    }
+  },
+  "testing" : {
+    "targets" : {
+      "applied" : {
+        "target_point" : "fcu_773_return_air_temperature_setpoint",
+        "target_value" : 79
+      },
+      "invalid" : {
+        "target_point" : "fcu_773_return_air_temperature_setpoint",
+        "target_value" : [ ]
+      }
+    }
+  },
+  "features" : {
+    "endpoint.config" : {
+      "stage" : "alpha"
+    },
+    "enumeration.families" : {
+      "stage" : "alpha"
+    },
+    "enumeration.features" : {
+      "stage" : "alpha"
+    },
+    "system.mode" : {
+      "stage" : "alpha"
+    },
+    "discovery.scan" : {
+      "stage" : "alpha"
+    },
+    "endpoint" : {
+      "stage" : "alpha"
+    },
+    "system" : {
+      "stage" : "alpha"
+    },
+    "writeback" : {
+      "stage" : "alpha"
+    },
+    "discovery" : {
+      "stage" : "alpha"
+    },
+    "enumeration.pointset" : {
+      "stage" : "alpha"
+    },
+    "pointset" : {
+      "stage" : "alpha"
+    },
+    "enumeration" : {
+      "stage" : "alpha"
+    },
+    "gateway" : {
+      "stage" : "alpha"
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "fcu_773_return_air_temperature_setpoint" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "4926",
+        "tags" : [ ]
+      },
+      "cds_64_zone_air_co2_concentration_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "4939",
+        "tags" : [ ]
+      },
+      "cds_70_zone_air_co2_concentration_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "4945",
+        "tags" : [ ]
+      },
+      "fcu_228_discharge_fan_speed_mode" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "4921",
+        "tags" : [ ]
+      },
+      "cds_61_zone_air_co2_concentration_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "4936",
+        "tags" : [ ]
+      },
+      "fcu_775_return_air_temperature_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "4931",
+        "tags" : [ ]
+      },
+      "cds_69_zone_air_co2_concentration_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "4944",
+        "tags" : [ ]
+      },
+      "fcu_228_return_air_temperature_setpoint" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "4918",
+        "tags" : [ ]
+      },
+      "fcu_228_discharge_fan_speed_percentage_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "4919",
+        "tags" : [ ]
+      },
+      "fcu_772_discharge_fan_speed_mode" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "4924",
+        "tags" : [ ]
+      },
+      "fcu_773_discharge_fan_speed_mode" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "4927",
+        "tags" : [ ]
+      },
+      "cds_66_zone_air_co2_concentration_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "4941",
+        "tags" : [ ]
+      },
+      "cds_63_zone_air_co2_concentration_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "4938",
+        "tags" : [ ]
+      },
+      "fcu_773_return_air_temperature_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "4925",
+        "tags" : [ ]
+      },
+      "fcu_774_return_air_temperature_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "4928",
+        "tags" : [ ]
+      },
+      "fcu_775_discharge_fan_speed_mode" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "4933",
+        "tags" : [ ]
+      },
+      "cds_68_zone_air_co2_concentration_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "4943",
+        "tags" : [ ]
+      },
+      "fcu_228_chilled_water_valve_percentage_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "4920",
+        "tags" : [ ]
+      },
+      "cds_71_zone_air_co2_concentration_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "4946",
+        "tags" : [ ]
+      },
+      "cds_59_zone_air_co2_concentration_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "4934",
+        "tags" : [ ]
+      },
+      "cds_65_zone_air_co2_concentration_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "4940",
+        "tags" : [ ]
+      },
+      "fcu_774_return_air_temperature_setpoint" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "4929",
+        "tags" : [ ]
+      },
+      "fcu_774_discharge_fan_speed_mode" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "4930",
+        "tags" : [ ]
+      },
+      "cds_60_zone_air_co2_concentration_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "4935",
+        "tags" : [ ]
+      },
+      "fcu_772_return_air_temperature_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "4922",
+        "tags" : [ ]
+      },
+      "fcu_775_return_air_temperature_setpoint" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "4932",
+        "tags" : [ ]
+      },
+      "cds_67_zone_air_co2_concentration_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "4942",
+        "tags" : [ ]
+      },
+      "fcu_772_return_air_temperature_setpoint" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "4923",
+        "tags" : [ ]
+      },
+      "cds_62_zone_air_co2_concentration_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "4937",
+        "tags" : [ ]
+      }
+    }
+  }
+}

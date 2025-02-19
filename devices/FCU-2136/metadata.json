@@ -1,0 +1,53 @@
+{
+  "cloud" : {
+    "auth_type" : "RS256"
+  },
+  "system" : {
+    "location" : {
+      "site" : "TW-NTC-TPKD",
+      "section" : "NTC-TPKD",
+      "position" : {
+        "x" : 0,
+        "y" : 0
+      }
+    },
+    "physical_tag" : {
+      "asset" : {
+        "site" : "TW-NTC-TPKD",
+        "name" : "FCU-2136",
+        "guid" : "uuid://e15276bf-129e-4d34-9cf4-6f261280ceda"
+      }
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "discharge_fan_run_command" : {
+        "units" : "No-units"
+      },
+      "discharge_fan_run_status" : {
+        "units" : "No-units"
+      },
+      "discharge_fan_lost_power_alarm" : {
+        "units" : "No-units"
+      },
+      "run_mode" : {
+        "units" : "No-units"
+      },
+      "return_air_temperature_sensor" : {
+        "units" : "Degrees-celsius"
+      },
+      "chilled_water_valve_command" : {
+        "units" : "No-units"
+      },
+      "discharge_fan_speed_mode" : {
+        "units" : "No-units"
+      },
+      "return_air_temperature_setpoint" : {
+        "units" : "Degrees-celsius"
+      }
+    }
+  },
+  "version" : 1,
+  "hash" : "58d9d336",
+  "timestamp" : "2021-10-15T11:10:31.531383800Z"
+}

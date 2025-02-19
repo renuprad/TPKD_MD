@@ -1,0 +1,44 @@
+{
+  "cloud" : {
+    "auth_type" : "RS256"
+  },
+  "system" : {
+    "location" : {
+      "site" : "TW-NTC-TPKD",
+      "section" : "NTC-TPKD",
+      "position" : {
+        "x" : 0,
+        "y" : 0
+      }
+    },
+    "physical_tag" : {
+      "asset" : {
+        "site" : "TW-NTC-TPKD",
+        "name" : "EF-32",
+        "guid" : "uuid://c2cd7a19-0fa9-4528-a5ff-d0de428968fa"
+      }
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "run_command" : {
+        "units" : "No-units"
+      },
+      "run_mode" : {
+        "units" : "No-units"
+      },
+      "run_status" : {
+        "units" : "No-units"
+      },
+      "lost_power_alarm" : {
+        "units" : "No-units"
+      },
+      "low_differential_pressure_alarm" : {
+        "units" : "No-units"
+      }
+    }
+  },
+  "version" : 1,
+  "hash" : "58d9d336",
+  "timestamp" : "2021-10-15T11:10:20.350260800Z"
+}

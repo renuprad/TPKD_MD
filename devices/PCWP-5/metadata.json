@@ -1,0 +1,130 @@
+{
+  "timestamp" : "2024-12-03T10:06:13Z",
+  "version" : "1.5.2",
+  "cloud" : {
+    "resource_type" : "DEVICE"
+  },
+  "system" : {
+    "tags" : [ ],
+    "location" : {
+      "site" : "TW-NTC-TPKD"
+    },
+    "min_loglevel" : 300
+  },
+  "gateway" : {
+    "gateway_id" : "CGW-129"
+  },
+  "localnet" : {
+    "families" : {
+      "iot" : {
+        "addr" : "PCWP-5"
+      }
+    }
+  },
+  "testing" : {
+    "nostate" : true,
+    "targets" : {
+      "applied" : {
+        "target_point" : "pcwp_5_lost_power_alarm",
+        "target_value" : true
+      },
+      "invalid" : {
+        "target_point" : "pcwp_5_lost_power_alarm",
+        "target_value" : [ ]
+      }
+    }
+  },
+  "features" : {
+    "system" : {
+      "stage" : "alpha"
+    },
+    "writeback" : {
+      "stage" : "alpha"
+    },
+    "pointset" : {
+      "stage" : "alpha"
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "pcwp_5_lost_power_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15655",
+        "tags" : [ ]
+      },
+      "pcwp_5_end_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15661",
+        "tags" : [ ]
+      },
+      "pcwp_5_start_mode" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15663",
+        "tags" : [ ]
+      },
+      "pcwp_5_run_time_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15739",
+        "tags" : [ ]
+      },
+      "pcwp_5_control_status" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15657",
+        "tags" : [ ]
+      },
+      "pcwp_5_run_mode" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15656",
+        "tags" : [ ]
+      },
+      "pcwp_5_simulation_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15659",
+        "tags" : [ ]
+      },
+      "pcwp_5_run_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15653",
+        "tags" : [ ]
+      },
+      "pcwp_5_start_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15662",
+        "tags" : [ ]
+      },
+      "pcwp_5_reset_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15664",
+        "tags" : [ ]
+      },
+      "pcwp_5_reset_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15658",
+        "tags" : [ ]
+      },
+      "pcwp_5_low_differential_pressure_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15660",
+        "tags" : [ ]
+      },
+      "pcwp_5_run_status" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15654",
+        "tags" : [ ]
+      }
+    }
+  }
+}

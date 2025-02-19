@@ -1,0 +1,35 @@
+{
+  "cloud" : {
+    "auth_type" : "RS256"
+  },
+  "system" : {
+    "location" : {
+      "site" : "TW-NTC-TPKD",
+      "section" : "NTC-TPKD",
+      "position" : {
+        "x" : 0,
+        "y" : 0
+      }
+    },
+    "physical_tag" : {
+      "asset" : {
+        "site" : "TW-NTC-TPKD",
+        "name" : "LDS-47",
+        "guid" : "uuid://961db9c0-c131-425c-b411-4eca1511a9fa"
+      }
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "water_leak_detection_alarm" : {
+        "units" : "No-units"
+      },
+      "broken_cable_alarm" : {
+        "units" : "No-units"
+      }
+    }
+  },
+  "version" : 1,
+  "hash" : "58d9d336",
+  "timestamp" : "2021-10-15T11:10:52.645429600Z"
+}

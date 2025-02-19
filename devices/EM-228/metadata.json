@@ -1,0 +1,118 @@
+{
+  "timestamp" : "2024-12-03T10:06:12Z",
+  "version" : "1.5.2",
+  "cloud" : {
+    "resource_type" : "DEVICE"
+  },
+  "system" : {
+    "tags" : [ ],
+    "location" : {
+      "site" : "TW-NTC-TPKD"
+    },
+    "min_loglevel" : 300
+  },
+  "gateway" : {
+    "gateway_id" : "CGW-38"
+  },
+  "localnet" : {
+    "families" : {
+      "iot" : {
+        "addr" : "EM-228"
+      }
+    }
+  },
+  "testing" : {
+    "nostate" : true,
+    "targets" : {
+      "applied" : {
+        "target_point" : "em_228_line_frequency_sensor",
+        "target_value" : 94
+      },
+      "invalid" : {
+        "target_point" : "em_228_line_frequency_sensor",
+        "target_value" : [ ]
+      }
+    }
+  },
+  "features" : {
+    "system" : {
+      "stage" : "alpha"
+    },
+    "writeback" : {
+      "stage" : "alpha"
+    },
+    "pointset" : {
+      "stage" : "alpha"
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "em_228_line_frequency_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "6641",
+        "tags" : [ ]
+      },
+      "em_228_phase2_line_current_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "6632",
+        "tags" : [ ]
+      },
+      "em_228_power_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "6637",
+        "tags" : [ ]
+      },
+      "em_228_phase1_neutral_line_voltage_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "6634",
+        "tags" : [ ]
+      },
+      "em_228_powerfactor_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "6639",
+        "tags" : [ ]
+      },
+      "em_228_reactive_power_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "6640",
+        "tags" : [ ]
+      },
+      "em_228_phase1_line_current_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "6631",
+        "tags" : [ ]
+      },
+      "em_228_phase3_line_current_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "6633",
+        "tags" : [ ]
+      },
+      "em_228_energy_accumulator" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "6638",
+        "tags" : [ ]
+      },
+      "em_228_phase3_neutral_line_voltage_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "6636",
+        "tags" : [ ]
+      },
+      "em_228_phase2_neutral_line_voltage_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "6635",
+        "tags" : [ ]
+      }
+    }
+  }
+}

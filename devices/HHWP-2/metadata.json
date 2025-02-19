@@ -1,0 +1,100 @@
+{
+  "timestamp" : "2024-12-03T10:06:13Z",
+  "version" : "1.5.2",
+  "cloud" : {
+    "resource_type" : "DEVICE"
+  },
+  "system" : {
+    "tags" : [ ],
+    "location" : {
+      "site" : "TW-NTC-TPKD"
+    },
+    "min_loglevel" : 300
+  },
+  "gateway" : {
+    "gateway_id" : "CGW-82"
+  },
+  "localnet" : {
+    "families" : {
+      "iot" : {
+        "addr" : "HHWP-2"
+      }
+    }
+  },
+  "testing" : {
+    "nostate" : true,
+    "targets" : {
+      "applied" : {
+        "target_point" : "hhwp_2_supply_water_temperature_sensor",
+        "target_value" : 91
+      },
+      "invalid" : {
+        "target_point" : "hhwp_2_supply_water_temperature_sensor",
+        "target_value" : [ ]
+      }
+    }
+  },
+  "features" : {
+    "system" : {
+      "stage" : "alpha"
+    },
+    "writeback" : {
+      "stage" : "alpha"
+    },
+    "pointset" : {
+      "stage" : "alpha"
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "hhwp_2_supply_water_temperature_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "12220",
+        "tags" : [ ]
+      },
+      "hhwp_2_run_mode" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "12119",
+        "tags" : [ ]
+      },
+      "hhwp_2_return_water_temperature_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "12221",
+        "tags" : [ ]
+      },
+      "hhwp_2_supply_water_temperature_setpoint" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "12222",
+        "tags" : [ ]
+      },
+      "hhwp_2_schedule_run_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "12120",
+        "tags" : [ ]
+      },
+      "hhwp_2_lost_power_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "12118",
+        "tags" : [ ]
+      },
+      "hhwp_2_run_status" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "12117",
+        "tags" : [ ]
+      },
+      "hhwp_2_run_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "12116",
+        "tags" : [ ]
+      }
+    }
+  }
+}

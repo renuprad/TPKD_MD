@@ -1,0 +1,32 @@
+{
+  "cloud" : {
+    "auth_type" : "RS256"
+  },
+  "system" : {
+    "location" : {
+      "site" : "TW-NTC-TPKD",
+      "section" : "NTC-TPKD",
+      "position" : {
+        "x" : 0,
+        "y" : 0
+      }
+    },
+    "physical_tag" : {
+      "asset" : {
+        "site" : "TW-NTC-TPKD",
+        "name" : "CDS-2",
+        "guid" : "uuid://3f5cbe35-70e3-4834-aea2-7d406c2129fb"
+      }
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "zone_air_co2_concentration_sensor" : {
+        "units" : "Parts-per-million"
+      }
+    }
+  },
+  "version" : 1,
+  "hash" : "58d9d336",
+  "timestamp" : "2021-10-15T11:10:12.603793400Z"
+}

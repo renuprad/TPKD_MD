@@ -1,0 +1,112 @@
+{
+  "timestamp" : "2024-12-03T10:06:13Z",
+  "version" : "1.5.2",
+  "cloud" : {
+    "resource_type" : "DEVICE"
+  },
+  "system" : {
+    "tags" : [ ],
+    "location" : {
+      "site" : "TW-NTC-TPKD"
+    },
+    "min_loglevel" : 300
+  },
+  "gateway" : {
+    "gateway_id" : "CGW-129"
+  },
+  "localnet" : {
+    "families" : {
+      "iot" : {
+        "addr" : "CHWS-1"
+      }
+    }
+  },
+  "testing" : {
+    "nostate" : true,
+    "targets" : {
+      "applied" : {
+        "target_point" : "chws_1_chilled_supply_water_flowrate_sensor",
+        "target_value" : 51
+      },
+      "invalid" : {
+        "target_point" : "chws_1_chilled_supply_water_flowrate_sensor",
+        "target_value" : [ ]
+      }
+    }
+  },
+  "features" : {
+    "system" : {
+      "stage" : "alpha"
+    },
+    "writeback" : {
+      "stage" : "alpha"
+    },
+    "pointset" : {
+      "stage" : "alpha"
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "chws_1_chilled_supply_water_flowrate_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15742",
+        "tags" : [ ]
+      },
+      "chws_1_chilled_supply_water_temperature_sensor_1" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15743",
+        "tags" : [ ]
+      },
+      "chws_1_chilled_return_water_temperature_sensor_3" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15750",
+        "tags" : [ ]
+      },
+      "chws_1_chilled_return_water_temperature_sensor_4" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15751",
+        "tags" : [ ]
+      },
+      "chws_1_chilled_return_water_temperature_sensor_1" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15748",
+        "tags" : [ ]
+      },
+      "chws_1_chilled_supply_water_temperature_sensor_5" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15747",
+        "tags" : [ ]
+      },
+      "chws_1_chilled_return_water_temperature_sensor_2" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15749",
+        "tags" : [ ]
+      },
+      "chws_1_chilled_supply_water_temperature_sensor_4" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15746",
+        "tags" : [ ]
+      },
+      "chws_1_chilled_supply_water_temperature_sensor_3" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15745",
+        "tags" : [ ]
+      },
+      "chws_1_chilled_supply_water_temperature_sensor_2" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15744",
+        "tags" : [ ]
+      }
+    }
+  }
+}

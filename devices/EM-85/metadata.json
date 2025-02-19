@@ -1,0 +1,118 @@
+{
+  "timestamp" : "2024-12-03T10:06:12Z",
+  "version" : "1.5.2",
+  "cloud" : {
+    "resource_type" : "DEVICE"
+  },
+  "system" : {
+    "tags" : [ ],
+    "location" : {
+      "site" : "TW-NTC-TPKD"
+    },
+    "min_loglevel" : 300
+  },
+  "gateway" : {
+    "gateway_id" : "CGW-28"
+  },
+  "localnet" : {
+    "families" : {
+      "iot" : {
+        "addr" : "EM-85"
+      }
+    }
+  },
+  "testing" : {
+    "nostate" : true,
+    "targets" : {
+      "applied" : {
+        "target_point" : "em_85_line_frequency_sensor",
+        "target_value" : 90
+      },
+      "invalid" : {
+        "target_point" : "em_85_line_frequency_sensor",
+        "target_value" : [ ]
+      }
+    }
+  },
+  "features" : {
+    "system" : {
+      "stage" : "alpha"
+    },
+    "writeback" : {
+      "stage" : "alpha"
+    },
+    "pointset" : {
+      "stage" : "alpha"
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "em_85_line_frequency_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "5100",
+        "tags" : [ ]
+      },
+      "em_85_phase1_line_current_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "5090",
+        "tags" : [ ]
+      },
+      "em_85_phase3_line_current_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "5092",
+        "tags" : [ ]
+      },
+      "em_85_energy_accumulator" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "5097",
+        "tags" : [ ]
+      },
+      "em_85_power_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "5096",
+        "tags" : [ ]
+      },
+      "em_85_reactive_power_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "5099",
+        "tags" : [ ]
+      },
+      "em_85_powerfactor_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "5098",
+        "tags" : [ ]
+      },
+      "em_85_phase2_line_current_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "5091",
+        "tags" : [ ]
+      },
+      "em_85_phase3_neutral_line_voltage_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "5095",
+        "tags" : [ ]
+      },
+      "em_85_phase2_neutral_line_voltage_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "5094",
+        "tags" : [ ]
+      },
+      "em_85_phase1_neutral_line_voltage_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "5093",
+        "tags" : [ ]
+      }
+    }
+  }
+}

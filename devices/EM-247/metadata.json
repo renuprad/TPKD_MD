@@ -1,0 +1,64 @@
+{
+  "timestamp" : "2024-12-03T10:06:13Z",
+  "version" : "1.5.2",
+  "cloud" : {
+    "resource_type" : "DEVICE"
+  },
+  "system" : {
+    "tags" : [ ],
+    "location" : {
+      "site" : "TW-NTC-TPKD"
+    },
+    "min_loglevel" : 300
+  },
+  "gateway" : {
+    "gateway_id" : "CGW-130"
+  },
+  "localnet" : {
+    "families" : {
+      "iot" : {
+        "addr" : "EM-247"
+      }
+    }
+  },
+  "testing" : {
+    "nostate" : true,
+    "targets" : {
+      "applied" : {
+        "target_point" : "em_247_energy_accumulator",
+        "target_value" : 80
+      },
+      "invalid" : {
+        "target_point" : "em_247_energy_accumulator",
+        "target_value" : [ ]
+      }
+    }
+  },
+  "features" : {
+    "system" : {
+      "stage" : "alpha"
+    },
+    "writeback" : {
+      "stage" : "alpha"
+    },
+    "pointset" : {
+      "stage" : "alpha"
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "em_247_energy_accumulator" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15910",
+        "tags" : [ ]
+      },
+      "em_247_power_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15909",
+        "tags" : [ ]
+      }
+    }
+  }
+}

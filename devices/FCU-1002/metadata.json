@@ -1,0 +1,106 @@
+{
+  "timestamp" : "2024-12-03T10:06:13Z",
+  "version" : "1.5.2",
+  "cloud" : {
+    "resource_type" : "DEVICE"
+  },
+  "system" : {
+    "tags" : [ ],
+    "location" : {
+      "site" : "TW-NTC-TPKD"
+    },
+    "min_loglevel" : 300
+  },
+  "gateway" : {
+    "gateway_id" : "CGW-80"
+  },
+  "localnet" : {
+    "families" : {
+      "iot" : {
+        "addr" : "FCU-1002"
+      }
+    }
+  },
+  "testing" : {
+    "nostate" : true,
+    "targets" : {
+      "applied" : {
+        "target_point" : "fcu_1002_discharge_fan_run_status",
+        "target_value" : false
+      },
+      "invalid" : {
+        "target_point" : "fcu_1002_discharge_fan_run_status",
+        "target_value" : [ ]
+      }
+    }
+  },
+  "features" : {
+    "system" : {
+      "stage" : "alpha"
+    },
+    "writeback" : {
+      "stage" : "alpha"
+    },
+    "pointset" : {
+      "stage" : "alpha"
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "fcu_1002_discharge_fan_run_status" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "12021",
+        "tags" : [ ]
+      },
+      "fcu_1002_discharge_fan_speed_mode" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "12074",
+        "tags" : [ ]
+      },
+      "fcu_1002_return_air_temperature_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "12072",
+        "tags" : [ ]
+      },
+      "fcu_1002_discharge_fan_run_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "12020",
+        "tags" : [ ]
+      },
+      "fcu_1002_schedule_run_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "12024",
+        "tags" : [ ]
+      },
+      "fcu_1002_chilled_water_valve_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "12025",
+        "tags" : [ ]
+      },
+      "fcu_1002_discharge_fan_lost_power_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "12022",
+        "tags" : [ ]
+      },
+      "fcu_1002_run_mode" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "12023",
+        "tags" : [ ]
+      },
+      "fcu_1002_return_air_temperature_setpoint" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "12073",
+        "tags" : [ ]
+      }
+    }
+  }
+}

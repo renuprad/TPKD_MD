@@ -1,0 +1,64 @@
+{
+  "timestamp" : "2024-12-03T10:06:12Z",
+  "version" : "1.5.2",
+  "cloud" : {
+    "resource_type" : "DEVICE"
+  },
+  "system" : {
+    "tags" : [ ],
+    "location" : {
+      "site" : "TW-NTC-TPKD"
+    },
+    "min_loglevel" : 300
+  },
+  "gateway" : {
+    "gateway_id" : "CGW-17"
+  },
+  "localnet" : {
+    "families" : {
+      "iot" : {
+        "addr" : "LDS-14"
+      }
+    }
+  },
+  "testing" : {
+    "nostate" : true,
+    "targets" : {
+      "applied" : {
+        "target_point" : "lds_14_water_leak_detection_alarm",
+        "target_value" : true
+      },
+      "invalid" : {
+        "target_point" : "lds_14_water_leak_detection_alarm",
+        "target_value" : [ ]
+      }
+    }
+  },
+  "features" : {
+    "system" : {
+      "stage" : "alpha"
+    },
+    "writeback" : {
+      "stage" : "alpha"
+    },
+    "pointset" : {
+      "stage" : "alpha"
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "lds_14_water_leak_detection_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "2371",
+        "tags" : [ ]
+      },
+      "lds_14_broken_cable_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "2416",
+        "tags" : [ ]
+      }
+    }
+  }
+}

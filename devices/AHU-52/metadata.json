@@ -1,0 +1,71 @@
+{
+  "cloud" : {
+    "auth_type" : "RS256"
+  },
+  "system" : {
+    "location" : {
+      "site" : "TW-NTC-TPKD",
+      "section" : "NTC-TPKD",
+      "position" : {
+        "x" : 0,
+        "y" : 0
+      }
+    },
+    "physical_tag" : {
+      "asset" : {
+        "site" : "TW-NTC-TPKD",
+        "name" : "AHU-52",
+        "guid" : "uuid://a44efa21-ba40-48ad-9043-731f910d0989"
+      }
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "chilled_return_water_temperature_sensor" : {
+        "units" : "Degrees-celsius"
+      },
+      "chilled_supply_water_temperature_sensor" : {
+        "units" : "Degrees-celsius"
+      },
+      "chilled_water_flowrate_sensor" : {
+        "units" : "Cubic-meters-per-minute"
+      },
+      "chilled_water_valve_percentage_command" : {
+        "units" : "Percent"
+      },
+      "chilled_water_valve_percentage_sensor" : {
+        "units" : "Percent"
+      },
+      "cooling_thermal_power_sensor" : {
+        "units" : "Kilowatts"
+      },
+      "discharge_air_flowrate_status" : {
+        "units" : "No-units"
+      },
+      "discharge_fan_lost_power_alarm" : {
+        "units" : "No-units"
+      },
+      "discharge_fan_run_command" : {
+        "units" : "No-units"
+      },
+      "discharge_fan_run_status" : {
+        "units" : "No-units"
+      },
+      "filter_alarm" : {
+        "units" : "No-units"
+      },
+      "run_mode" : {
+        "units" : "No-units"
+      },
+      "smoke_alarm" : {
+        "units" : "No-units"
+      },
+      "zone_air_temperature_sensor" : {
+        "units" : "Degrees-celsius"
+      }
+    }
+  },
+  "version" : 1,
+  "hash" : "58d9d336",
+  "timestamp" : "2021-10-15T11:10:30.752457300Z"
+}

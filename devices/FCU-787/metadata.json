@@ -1,0 +1,112 @@
+{
+  "timestamp" : "2024-12-03T10:06:12Z",
+  "version" : "1.5.2",
+  "cloud" : {
+    "resource_type" : "DEVICE"
+  },
+  "system" : {
+    "tags" : [ ],
+    "location" : {
+      "site" : "TW-NTC-TPKD"
+    },
+    "min_loglevel" : 300
+  },
+  "gateway" : {
+    "gateway_id" : "CGW-30"
+  },
+  "localnet" : {
+    "families" : {
+      "iot" : {
+        "addr" : "FCU-787"
+      }
+    }
+  },
+  "testing" : {
+    "nostate" : true,
+    "targets" : {
+      "applied" : {
+        "target_point" : "fcu_787_discharge_fan_speed_percentage_command",
+        "target_value" : 54
+      },
+      "invalid" : {
+        "target_point" : "fcu_787_discharge_fan_speed_percentage_command",
+        "target_value" : [ ]
+      }
+    }
+  },
+  "features" : {
+    "system" : {
+      "stage" : "alpha"
+    },
+    "writeback" : {
+      "stage" : "alpha"
+    },
+    "pointset" : {
+      "stage" : "alpha"
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "fcu_787_discharge_fan_speed_percentage_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "5434",
+        "tags" : [ ]
+      },
+      "fcu_787_run_mode" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "5551",
+        "tags" : [ ]
+      },
+      "fcu_787_return_air_temperature_setpoint" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "5433",
+        "tags" : [ ]
+      },
+      "fcu_787_discharge_fan_run_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "5548",
+        "tags" : [ ]
+      },
+      "fcu_787_chilled_water_valve_percentage_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "5435",
+        "tags" : [ ]
+      },
+      "fcu_787_return_air_temperature_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "5432",
+        "tags" : [ ]
+      },
+      "fcu_787_discharge_fan_run_status" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "5549",
+        "tags" : [ ]
+      },
+      "fcu_787_schedule_run_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "5552",
+        "tags" : [ ]
+      },
+      "fcu_787_discharge_fan_lost_power_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "5550",
+        "tags" : [ ]
+      },
+      "fcu_787_discharge_fan_speed_mode" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "5436",
+        "tags" : [ ]
+      }
+    }
+  }
+}

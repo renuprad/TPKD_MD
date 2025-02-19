@@ -1,0 +1,82 @@
+{
+  "timestamp" : "2024-12-03T10:06:12Z",
+  "version" : "1.5.2",
+  "cloud" : {
+    "resource_type" : "DEVICE"
+  },
+  "system" : {
+    "tags" : [ ],
+    "location" : {
+      "site" : "TW-NTC-TPKD"
+    },
+    "min_loglevel" : 300
+  },
+  "gateway" : {
+    "gateway_id" : "CGW-15"
+  },
+  "localnet" : {
+    "families" : {
+      "iot" : {
+        "addr" : "FCU-119"
+      }
+    }
+  },
+  "testing" : {
+    "nostate" : true,
+    "targets" : {
+      "applied" : {
+        "target_point" : "fcu_119_schedule_run_command",
+        "target_value" : true
+      },
+      "invalid" : {
+        "target_point" : "fcu_119_schedule_run_command",
+        "target_value" : [ ]
+      }
+    }
+  },
+  "features" : {
+    "system" : {
+      "stage" : "alpha"
+    },
+    "writeback" : {
+      "stage" : "alpha"
+    },
+    "pointset" : {
+      "stage" : "alpha"
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "fcu_119_schedule_run_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "3872",
+        "tags" : [ ]
+      },
+      "fcu_119_discharge_fan_run_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "3868",
+        "tags" : [ ]
+      },
+      "fcu_119_discharge_fan_run_status" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "3869",
+        "tags" : [ ]
+      },
+      "fcu_119_discharge_fan_lost_power_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "3870",
+        "tags" : [ ]
+      },
+      "fcu_119_run_mode" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "3871",
+        "tags" : [ ]
+      }
+    }
+  }
+}

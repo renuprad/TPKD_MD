@@ -1,0 +1,130 @@
+{
+  "timestamp" : "2024-12-03T10:06:13Z",
+  "version" : "1.5.2",
+  "cloud" : {
+    "resource_type" : "DEVICE"
+  },
+  "system" : {
+    "tags" : [ ],
+    "location" : {
+      "site" : "TW-NTC-TPKD"
+    },
+    "min_loglevel" : 300
+  },
+  "gateway" : {
+    "gateway_id" : "CGW-129"
+  },
+  "localnet" : {
+    "families" : {
+      "iot" : {
+        "addr" : "CHWP-7"
+      }
+    }
+  },
+  "testing" : {
+    "nostate" : true,
+    "targets" : {
+      "applied" : {
+        "target_point" : "chwp_7_reset_alarm",
+        "target_value" : false
+      },
+      "invalid" : {
+        "target_point" : "chwp_7_reset_alarm",
+        "target_value" : [ ]
+      }
+    }
+  },
+  "features" : {
+    "system" : {
+      "stage" : "alpha"
+    },
+    "writeback" : {
+      "stage" : "alpha"
+    },
+    "pointset" : {
+      "stage" : "alpha"
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "chwp_7_reset_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15628",
+        "tags" : [ ]
+      },
+      "chwp_7_start_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15626",
+        "tags" : [ ]
+      },
+      "chwp_7_run_mode" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15620",
+        "tags" : [ ]
+      },
+      "chwp_7_low_differential_pressure_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15624",
+        "tags" : [ ]
+      },
+      "chwp_7_reset_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15622",
+        "tags" : [ ]
+      },
+      "chwp_7_simulation_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15623",
+        "tags" : [ ]
+      },
+      "chwp_7_run_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15617",
+        "tags" : [ ]
+      },
+      "chwp_7_lost_power_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15619",
+        "tags" : [ ]
+      },
+      "chwp_7_run_status" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15618",
+        "tags" : [ ]
+      },
+      "chwp_7_start_mode" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15627",
+        "tags" : [ ]
+      },
+      "chwp_7_run_time_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15736",
+        "tags" : [ ]
+      },
+      "chwp_7_end_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15625",
+        "tags" : [ ]
+      },
+      "chwp_7_control_status" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15621",
+        "tags" : [ ]
+      }
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "timestamp" : "2024-12-03T10:06:12Z",
+  "version" : "1.5.2",
+  "cloud" : {
+    "resource_type" : "DEVICE"
+  },
+  "system" : {
+    "tags" : [ ],
+    "location" : {
+      "site" : "TW-NTC-TPKD"
+    },
+    "min_loglevel" : 300
+  },
+  "gateway" : {
+    "gateway_id" : "CGW-8"
+  },
+  "localnet" : {
+    "families" : {
+      "iot" : {
+        "addr" : "VAV-4"
+      }
+    }
+  },
+  "testing" : {
+    "nostate" : true,
+    "targets" : {
+      "applied" : {
+        "target_point" : "vav_4_supply_air_flowrate_sensor",
+        "target_value" : 87
+      },
+      "invalid" : {
+        "target_point" : "vav_4_supply_air_flowrate_sensor",
+        "target_value" : [ ]
+      }
+    }
+  },
+  "features" : {
+    "system" : {
+      "stage" : "alpha"
+    },
+    "writeback" : {
+      "stage" : "alpha"
+    },
+    "pointset" : {
+      "stage" : "alpha"
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "vav_4_supply_air_flowrate_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "1445",
+        "tags" : [ ]
+      },
+      "vav_4_failed_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "1446",
+        "tags" : [ ]
+      },
+      "vav_4_supply_air_damper_percentage_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "1444",
+        "tags" : [ ]
+      },
+      "vav_4_zone_air_temperature_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "1443",
+        "tags" : [ ]
+      }
+    }
+  }
+}

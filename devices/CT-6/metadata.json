@@ -1,0 +1,178 @@
+{
+  "timestamp" : "2024-12-03T10:06:13Z",
+  "version" : "1.5.2",
+  "cloud" : {
+    "resource_type" : "DEVICE"
+  },
+  "system" : {
+    "tags" : [ ],
+    "location" : {
+      "site" : "TW-NTC-TPKD"
+    },
+    "min_loglevel" : 300
+  },
+  "gateway" : {
+    "gateway_id" : "CGW-82"
+  },
+  "localnet" : {
+    "families" : {
+      "iot" : {
+        "addr" : "CT-6"
+      }
+    }
+  },
+  "testing" : {
+    "nostate" : true,
+    "targets" : {
+      "applied" : {
+        "target_point" : "ct_6_run_mode",
+        "target_value" : false
+      },
+      "invalid" : {
+        "target_point" : "ct_6_run_mode",
+        "target_value" : [ ]
+      }
+    }
+  },
+  "features" : {
+    "system" : {
+      "stage" : "alpha"
+    },
+    "writeback" : {
+      "stage" : "alpha"
+    },
+    "pointset" : {
+      "stage" : "alpha"
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "ct_6_run_mode" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "12184",
+        "tags" : [ ]
+      },
+      "ct_6_condensing_return_water_isolation_valve_percentage_setpoint" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "12342",
+        "tags" : [ ]
+      },
+      "ct_6_lost_power_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "12183",
+        "tags" : [ ]
+      },
+      "ct_6_condensing_return_water_isolation_valve_percentage_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "12340",
+        "tags" : [ ]
+      },
+      "ct_6_speed_frequency_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "12237",
+        "tags" : [ ]
+      },
+      "ct_6_control_status" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "12188",
+        "tags" : [ ]
+      },
+      "ct_6_speed_frequency_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "12236",
+        "tags" : [ ]
+      },
+      "ct_6_condensing_return_water_isolation_valve_mode" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "12241",
+        "tags" : [ ]
+      },
+      "ct_6_reset_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "12189",
+        "tags" : [ ]
+      },
+      "ct_6_end_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "12186",
+        "tags" : [ ]
+      },
+      "ct_6_pump_speed_frequency_setpoint" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "12239",
+        "tags" : [ ]
+      },
+      "ct_6_condensing_return_water_isolation_valve_percentage_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "12341",
+        "tags" : [ ]
+      },
+      "ct_6_pump_speed_mode" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "12190",
+        "tags" : [ ]
+      },
+      "ct_6_run_status" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "12182",
+        "tags" : [ ]
+      },
+      "ct_6_run_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "12181",
+        "tags" : [ ]
+      },
+      "ct_6_run_time_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "12238",
+        "tags" : [ ]
+      },
+      "ct_6_reset_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "12193",
+        "tags" : [ ]
+      },
+      "ct_6_simulation_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "12191",
+        "tags" : [ ]
+      },
+      "ct_6_schedule_run_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "12185",
+        "tags" : [ ]
+      },
+      "ct_6_start_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "12187",
+        "tags" : [ ]
+      },
+      "ct_6_start_mode" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "12192",
+        "tags" : [ ]
+      }
+    }
+  }
+}

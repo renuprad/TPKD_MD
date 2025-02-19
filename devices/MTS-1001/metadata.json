@@ -1,0 +1,64 @@
+{
+  "timestamp" : "2024-12-03T10:06:13Z",
+  "version" : "1.5.2",
+  "cloud" : {
+    "resource_type" : "DEVICE"
+  },
+  "system" : {
+    "tags" : [ ],
+    "location" : {
+      "site" : "TW-NTC-TPKD"
+    },
+    "min_loglevel" : 300
+  },
+  "gateway" : {
+    "gateway_id" : "CGW-50"
+  },
+  "localnet" : {
+    "families" : {
+      "iot" : {
+        "addr" : "MTS-1001"
+      }
+    }
+  },
+  "testing" : {
+    "nostate" : true,
+    "targets" : {
+      "applied" : {
+        "target_point" : "mts_1001_zone_air_relative_humidity_sensor",
+        "target_value" : 87
+      },
+      "invalid" : {
+        "target_point" : "mts_1001_zone_air_relative_humidity_sensor",
+        "target_value" : [ ]
+      }
+    }
+  },
+  "features" : {
+    "system" : {
+      "stage" : "alpha"
+    },
+    "writeback" : {
+      "stage" : "alpha"
+    },
+    "pointset" : {
+      "stage" : "alpha"
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "mts_1001_zone_air_relative_humidity_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "8126",
+        "tags" : [ ]
+      },
+      "mts_1001_zone_air_temperature_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "8125",
+        "tags" : [ ]
+      }
+    }
+  }
+}

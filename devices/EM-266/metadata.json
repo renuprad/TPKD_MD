@@ -1,0 +1,94 @@
+{
+  "timestamp" : "2024-12-03T10:06:13Z",
+  "version" : "1.5.2",
+  "cloud" : {
+    "resource_type" : "DEVICE"
+  },
+  "system" : {
+    "tags" : [ ],
+    "location" : {
+      "site" : "TW-NTC-TPKD"
+    },
+    "min_loglevel" : 300
+  },
+  "gateway" : {
+    "gateway_id" : "CGW-150"
+  },
+  "localnet" : {
+    "families" : {
+      "iot" : {
+        "addr" : "EM-266"
+      }
+    }
+  },
+  "testing" : {
+    "nostate" : true,
+    "targets" : {
+      "applied" : {
+        "target_point" : "em_266_power_sensor",
+        "target_value" : 72
+      },
+      "invalid" : {
+        "target_point" : "em_266_power_sensor",
+        "target_value" : [ ]
+      }
+    }
+  },
+  "features" : {
+    "system" : {
+      "stage" : "alpha"
+    },
+    "writeback" : {
+      "stage" : "alpha"
+    },
+    "pointset" : {
+      "stage" : "alpha"
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "em_266_power_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16976",
+        "tags" : [ ]
+      },
+      "em_266_phase1_line_current_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16972",
+        "tags" : [ ]
+      },
+      "em_266_phase3_line_current_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16974",
+        "tags" : [ ]
+      },
+      "em_266_reactive_power_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16975",
+        "tags" : [ ]
+      },
+      "em_266_powerfactor_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16977",
+        "tags" : [ ]
+      },
+      "em_266_energy_accumulator" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16978",
+        "tags" : [ ]
+      },
+      "em_266_phase2_line_current_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "16973",
+        "tags" : [ ]
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "cloud" : {
+    "auth_type" : "RS256"
+  },
+  "system" : {
+    "location" : {
+      "site" : "TW-NTC-TPKD",
+      "section" : "NTC-TPKD",
+      "position" : {
+        "x" : 0,
+        "y" : 0
+      }
+    },
+    "physical_tag" : {
+      "asset" : {
+        "site" : "TW-NTC-TPKD",
+        "name" : "EF-13",
+        "guid" : "uuid://f53e76af-c639-46ee-a1fe-de7fed329639"
+      }
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "run_command" : {
+        "units" : "No-units"
+      },
+      "damper_percentage_command" : {
+        "units" : "Percent"
+      },
+      "run_mode" : {
+        "units" : "No-units"
+      },
+      "run_status" : {
+        "units" : "No-units"
+      },
+      "lost_power_alarm" : {
+        "units" : "No-units"
+      },
+      "low_differential_pressure_alarm" : {
+        "units" : "No-units"
+      },
+      "damper_percentage_sensor" : {
+        "units" : "Percent"
+      },
+      "zone_air_temperature_sensor" : {
+        "units" : "Degrees-celsius"
+      },
+      "zone_air_relative_humidity_sensor" : {
+        "units" : "Percent-relative-humidity"
+      }
+    }
+  },
+  "version" : 1,
+  "hash" : "58d9d336",
+  "timestamp" : "2021-10-15T11:10:20.778677500Z"
+}

@@ -1,0 +1,106 @@
+{
+  "timestamp" : "2024-12-03T10:06:12Z",
+  "version" : "1.5.2",
+  "cloud" : {
+    "resource_type" : "DEVICE"
+  },
+  "system" : {
+    "tags" : [ ],
+    "location" : {
+      "site" : "TW-NTC-TPKD"
+    },
+    "min_loglevel" : 300
+  },
+  "gateway" : {
+    "gateway_id" : "CGW-34"
+  },
+  "localnet" : {
+    "families" : {
+      "iot" : {
+        "addr" : "FCU-805"
+      }
+    }
+  },
+  "testing" : {
+    "nostate" : true,
+    "targets" : {
+      "applied" : {
+        "target_point" : "fcu_805_return_air_temperature_setpoint",
+        "target_value" : 74
+      },
+      "invalid" : {
+        "target_point" : "fcu_805_return_air_temperature_setpoint",
+        "target_value" : [ ]
+      }
+    }
+  },
+  "features" : {
+    "system" : {
+      "stage" : "alpha"
+    },
+    "writeback" : {
+      "stage" : "alpha"
+    },
+    "pointset" : {
+      "stage" : "alpha"
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "fcu_805_return_air_temperature_setpoint" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "6067",
+        "tags" : [ ]
+      },
+      "fcu_805_discharge_fan_run_status" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "6001",
+        "tags" : [ ]
+      },
+      "fcu_805_discharge_fan_speed_mode" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "6068",
+        "tags" : [ ]
+      },
+      "fcu_805_discharge_fan_lost_power_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "6002",
+        "tags" : [ ]
+      },
+      "fcu_805_discharge_fan_run_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "6000",
+        "tags" : [ ]
+      },
+      "fcu_805_return_air_temperature_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "6066",
+        "tags" : [ ]
+      },
+      "fcu_805_chilled_water_valve_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "6005",
+        "tags" : [ ]
+      },
+      "fcu_805_schedule_run_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "6004",
+        "tags" : [ ]
+      },
+      "fcu_805_run_mode" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "6003",
+        "tags" : [ ]
+      }
+    }
+  }
+}

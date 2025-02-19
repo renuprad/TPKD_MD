@@ -1,0 +1,58 @@
+{
+  "timestamp" : "2024-12-03T10:06:13Z",
+  "version" : "1.5.2",
+  "cloud" : {
+    "resource_type" : "DEVICE"
+  },
+  "system" : {
+    "tags" : [ ],
+    "location" : {
+      "site" : "TW-NTC-TPKD"
+    },
+    "min_loglevel" : 300
+  },
+  "gateway" : {
+    "gateway_id" : "CGW-113"
+  },
+  "localnet" : {
+    "families" : {
+      "iot" : {
+        "addr" : "TPS-31"
+      }
+    }
+  },
+  "testing" : {
+    "nostate" : true,
+    "targets" : {
+      "applied" : {
+        "target_point" : "tps_31_zone_air_temperature_sensor",
+        "target_value" : 85
+      },
+      "invalid" : {
+        "target_point" : "tps_31_zone_air_temperature_sensor",
+        "target_value" : [ ]
+      }
+    }
+  },
+  "features" : {
+    "system" : {
+      "stage" : "alpha"
+    },
+    "writeback" : {
+      "stage" : "alpha"
+    },
+    "pointset" : {
+      "stage" : "alpha"
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "tps_31_zone_air_temperature_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15052",
+        "tags" : [ ]
+      }
+    }
+  }
+}

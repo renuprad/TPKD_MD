@@ -1,0 +1,82 @@
+{
+  "timestamp" : "2024-12-03T10:06:13Z",
+  "version" : "1.5.2",
+  "cloud" : {
+    "resource_type" : "DEVICE"
+  },
+  "system" : {
+    "tags" : [ ],
+    "location" : {
+      "site" : "TW-NTC-TPKD"
+    },
+    "min_loglevel" : 300
+  },
+  "gateway" : {
+    "gateway_id" : "CGW-113"
+  },
+  "localnet" : {
+    "families" : {
+      "iot" : {
+        "addr" : "HWC-2"
+      }
+    }
+  },
+  "testing" : {
+    "nostate" : true,
+    "targets" : {
+      "applied" : {
+        "target_point" : "hwc_2_schedule_run_command",
+        "target_value" : true
+      },
+      "invalid" : {
+        "target_point" : "hwc_2_schedule_run_command",
+        "target_value" : [ ]
+      }
+    }
+  },
+  "features" : {
+    "system" : {
+      "stage" : "alpha"
+    },
+    "writeback" : {
+      "stage" : "alpha"
+    },
+    "pointset" : {
+      "stage" : "alpha"
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "hwc_2_schedule_run_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15019",
+        "tags" : [ ]
+      },
+      "hwc_2_run_status" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15016",
+        "tags" : [ ]
+      },
+      "hwc_2_lost_power_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15017",
+        "tags" : [ ]
+      },
+      "hwc_2_run_mode" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15018",
+        "tags" : [ ]
+      },
+      "hwc_2_run_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "15015",
+        "tags" : [ ]
+      }
+    }
+  }
+}

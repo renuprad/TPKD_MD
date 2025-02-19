@@ -1,0 +1,62 @@
+{
+  "cloud" : {
+    "auth_type" : "RS256"
+  },
+  "system" : {
+    "location" : {
+      "site" : "TW-NTC-TPKD",
+      "section" : "NTC-TPKD",
+      "position" : {
+        "x" : 0,
+        "y" : 0
+      }
+    },
+    "physical_tag" : {
+      "asset" : {
+        "site" : "TW-NTC-TPKD",
+        "name" : "EM-41",
+        "guid" : "uuid://e938a559-1f7d-4ebf-8227-e510e73354b3"
+      }
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "phase1_line_current_sensor" : {
+        "units" : "Amperes"
+      },
+      "phase2_line_current_sensor" : {
+        "units" : "Amperes"
+      },
+      "phase3_line_current_sensor" : {
+        "units" : "Amperes"
+      },
+      "phase1_neutral_line_voltage_sensor" : {
+        "units" : "Volts"
+      },
+      "phase2_neutral_line_voltage_sensor" : {
+        "units" : "Volts"
+      },
+      "phase3_neutral_line_voltage_sensor" : {
+        "units" : "Volts"
+      },
+      "power_sensor" : {
+        "units" : "Kilowatts"
+      },
+      "energy_accumulator" : {
+        "units" : "Kilowatt-hours"
+      },
+      "powerfactor_sensor" : {
+        "units" : "No-units"
+      },
+      "reactive_power_sensor" : {
+        "units" : "Kilovolt-amperes-reactive"
+      },
+      "line_frequency_sensor" : {
+        "units" : "Hertz"
+      }
+    }
+  },
+  "version" : 1,
+  "hash" : "58d9d336",
+  "timestamp" : "2021-10-15T11:10:03.394252900Z"
+}

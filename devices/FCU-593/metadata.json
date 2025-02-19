@@ -1,0 +1,112 @@
+{
+  "timestamp" : "2024-12-03T10:06:13Z",
+  "version" : "1.5.2",
+  "cloud" : {
+    "resource_type" : "DEVICE"
+  },
+  "system" : {
+    "tags" : [ ],
+    "location" : {
+      "site" : "TW-NTC-TPKD"
+    },
+    "min_loglevel" : 300
+  },
+  "gateway" : {
+    "gateway_id" : "CGW-66"
+  },
+  "localnet" : {
+    "families" : {
+      "iot" : {
+        "addr" : "FCU-593"
+      }
+    }
+  },
+  "testing" : {
+    "nostate" : true,
+    "targets" : {
+      "applied" : {
+        "target_point" : "fcu_593_discharge_fan_run_status",
+        "target_value" : true
+      },
+      "invalid" : {
+        "target_point" : "fcu_593_discharge_fan_run_status",
+        "target_value" : [ ]
+      }
+    }
+  },
+  "features" : {
+    "system" : {
+      "stage" : "alpha"
+    },
+    "writeback" : {
+      "stage" : "alpha"
+    },
+    "pointset" : {
+      "stage" : "alpha"
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "fcu_593_discharge_fan_run_status" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "10260",
+        "tags" : [ ]
+      },
+      "fcu_593_discharge_fan_speed_mode" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "10342",
+        "tags" : [ ]
+      },
+      "fcu_593_discharge_fan_speed_percentage_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "10340",
+        "tags" : [ ]
+      },
+      "fcu_593_schedule_run_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "10263",
+        "tags" : [ ]
+      },
+      "fcu_593_discharge_fan_lost_power_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "10261",
+        "tags" : [ ]
+      },
+      "fcu_593_return_air_temperature_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "10338",
+        "tags" : [ ]
+      },
+      "fcu_593_run_mode" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "10262",
+        "tags" : [ ]
+      },
+      "fcu_593_chilled_water_valve_percentage_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "10341",
+        "tags" : [ ]
+      },
+      "fcu_593_discharge_fan_run_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "10259",
+        "tags" : [ ]
+      },
+      "fcu_593_return_air_temperature_setpoint" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "10339",
+        "tags" : [ ]
+      }
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "timestamp" : "2024-12-03T10:06:12Z",
+  "version" : "1.5.2",
+  "cloud" : {
+    "resource_type" : "DEVICE"
+  },
+  "system" : {
+    "tags" : [ ],
+    "location" : {
+      "site" : "TW-NTC-TPKD"
+    },
+    "min_loglevel" : 300
+  },
+  "gateway" : {
+    "gateway_id" : "CGW-2"
+  },
+  "localnet" : {
+    "families" : {
+      "iot" : {
+        "addr" : "FCU-16"
+      }
+    }
+  },
+  "testing" : {
+    "nostate" : true,
+    "targets" : {
+      "applied" : {
+        "target_point" : "fcu_16_control_mode",
+        "target_value" : false
+      },
+      "invalid" : {
+        "target_point" : "fcu_16_control_mode",
+        "target_value" : [ ]
+      }
+    }
+  },
+  "features" : {
+    "system" : {
+      "stage" : "alpha"
+    },
+    "writeback" : {
+      "stage" : "alpha"
+    },
+    "pointset" : {
+      "stage" : "alpha"
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "fcu_16_control_mode" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "214",
+        "tags" : [ ]
+      },
+      "fcu_16_lost_power_alarm" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "213",
+        "tags" : [ ]
+      },
+      "fcu_16_return_air_temperature_setpoint" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "230",
+        "tags" : [ ]
+      },
+      "fcu_16_discharge_fan_run_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "211",
+        "tags" : [ ]
+      },
+      "fcu_16_run_status" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "212",
+        "tags" : [ ]
+      },
+      "fcu_16_discharge_fan_speed_percentage_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "231",
+        "tags" : [ ]
+      },
+      "fcu_16_return_air_temperature_sensor" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "229",
+        "tags" : [ ]
+      },
+      "fcu_16_schedule_run_command" : {
+        "units" : "",
+        "writable" : true,
+        "ref" : "215",
+        "tags" : [ ]
+      }
+    }
+  }
+}
